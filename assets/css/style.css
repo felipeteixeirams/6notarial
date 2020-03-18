@@ -606,7 +606,7 @@ img {
 -----------------------*/
 
 .py-7 {
-    padding: 7.5rem 0;
+    padding: 5.5rem 0;
 }
 
 .py-8 {
@@ -1659,3 +1659,5 @@ PRELOADER
 h3.smallTitle {
     font-size: 1.3em
 }
+
+
