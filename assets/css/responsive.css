@@ -22,7 +22,7 @@
 
     .top-info-block {
         text-align: center;
-        margin: 10px 0px;
+        margin: 5px 0px;
         clear: both;
     }
 
@@ -634,4 +634,8 @@
     .size-1 {
         font-size: 65%
     }
+}
+
+.info-block {
+    min-width: 93px
 }
