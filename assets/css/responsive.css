@@ -2,7 +2,12 @@
     MEDIUM LAYOUT: 1280px
 -----------------------------------*/
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .service-content {
+        padding-bottom: 70px;
+    }
+    
+}
 
 
 /*----------------------------------
@@ -48,7 +53,7 @@
     }
 
     .service-img {
-        margin-bottom: 0px;
+        margin-bottom: 0px
     }
 
     .service-content {
