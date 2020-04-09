@@ -1,14 +1,30 @@
-Autorização de viagem de menor
-Carta de sentença
-Certidões
-Testamento Vital
-Declaração de unição estável
-Declarações
-Divórcio e separação extrajudicial
-Emancipação
-Escritura de doação de bens
-Inventário extrajudicial
-Pacto antenupcial
-Reconhecimento de filho
-Revogação de procuração
-Usucapião extrajudicial
+REVISAO DO TABELIAO:
+1 - Abertura de Firma e Reconhecimento de firma*
+2 - Testamento ( + Testamento Vital DAV)*
+3 - Autenticação de cópia*
+4 - Inventário extrajudicial*
+5 - Convenção da Apostila de Haia*
+6 - Declaração de união estável (+ homo afetiva + dissolução)*
+7 - Procuração e Substabelecimento (+Revogação de procuração)*
+8 - Divórcio e Separação Extrajudicial*
+9 - Escrituras diversas, inclusive Compra e Venda, doação etc....*
+10 - Ata notarial*
+11 - Certidões*
+12 - Alegação de Venda de Veículos ao DETRAN/MS*
+13 - Declarações em geral
+14 - Reconhecimento de filho
+15 - Pacto antenupcial
+16 - Usucapião extrajudicial
+17 - Autorização de viagem de menor
+18 - Emancipação
+
+OUTROS CARTÓRIOS:
+Escritura Pública / Escrituras
+Inventário Extrajudicial
+Divórcio Extrajudicial / Separações e Divórcio
+Ata Notarial
+Procuração Pública / Procuração
+Testamento Público
+Abertura e Reconhecimento de Firma
+Autenticação de cópia
+Apostilamento de Documentos - Convenção de haia

@@ -151,7 +151,7 @@ h6 {
 
 
 p {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     font-size: 15px;
 }
 
@@ -1659,4 +1659,11 @@ h3.smallTitle {
     font-size: 1.3em
 }
 
+ul.li-hifen > li{
+    list-style-type: none;
+    text-indent: -0.6em
+}
 
+ul.li-hifen > li:before{
+    content: "- "
+}
