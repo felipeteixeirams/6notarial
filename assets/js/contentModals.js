@@ -49,70 +49,13 @@
 
     function conteudoDivorcio(){
         let el = document.getElementById('divorcio');
-        let content = '<article><div class="modal-header"><h3 class="modal-title">Divórcio e Separação Extrajudicial</h3><button type="button" class="btn-primary btn-circled" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        </div>
-        <div class="modal-body">
-            <h5>O que é?</h5>
-
-            <p>Separação é uma forma de dissolução da sociedade conjugal que extingue os deveres de coabitação e fidelidade próprios do casamento, bem como o regime de bens. Fica mantido, contudo, o vínculo matrimonial entre os separados, que os impede de contrair outro casamento.</p>
-
-            <p>Divórcio é uma forma de dissolução do casamento por vontade das partes. Ele pode ser feito a qualquer tempo, independentemente do cumprimento de prazos. Somente após o divórcio é permitido aos cônjuges contrair novo casamento.</p>
-
-            <p>A <cite>Lei 11.441/07</cite> facilitou a vida do cidadão e desburocratizou os procedimentos de divórcio e de separação consensuais ao permitir a realização desses atos em cartório de forma rápida, simples e segura.</p>
-
-            <h5>Quais são os requisitos para a realização de um divórcio ou separação em cartório?</h5>
-
-            <p>O principal requisito é o consenso entre o casal quanto à decisão de separação ou divórcio. Se houver litígio entre eles, o processo deve necessariamente ser judicial.</p>
-
-            <p>Além disso, o casal não pode ter filhos menores ou incapazes. Se a mulher estiver grávida, também não poderá ser feito o divórcio ou separação. Todavia, se devidamente for comprovada a prévia resolução judicial de todas as questões referentes aos filhos menores (guarda, visitação e alimentos), poderá ser realizado o divórcio ou a separação em cartório.</p>
-
-            <p>A escritura de separação ou divórcio não depende de homologação judicial e deve ser averbada no Cartório de Registro Civil para alteração do estado civil das partes.</p>
-
-            <p>Para transferência dos bens para o nome de cada um dos cônjuges é necessário apresentar a escritura para registro no Cartório de Registro de Imóveis (bens imóveis), no <abbr title="Departamento Estadual de Trânsito">Detran</abbr> (veículos), no Cartório de Registro Civil de Pessoas Jurídicas ou na Junta Comercial (sociedades), nos Bancos (contas bancárias), etc.</p>
-
-            <p>Mesmo havendo processo judicial em andamento, os interessados podem, a qualquer momento, desistir do processo e optar pela separação ou divórcio consensual em cartório, desde que preenchidos os requisitos legais.</p>
-
-            <p>É livre a escolha do Cartório de Notas para lavratura da escritura, independente do domicílio das partes ou do local do casamento.</p>
-
-            <p>Além disso, a lei exige a participação de um advogado como assistente jurídico das partes nas escrituras de separação e divórcio. As partes podem ter advogados distintos ou um só advogado para ambos.</p>
-
-            <p>Os cônjuges também podem se fazer representar por procuração pública, feita em cartório de notas, a qual deverá conter poderes especiais e expressos para essa finalidade, com prazo de validade de 30 (trinta) dias.</p>
-
-            <h5>Documentos necessários</h5>
-
-            <ul>
-                <li>Certidão de casamento (atualizada – prazo máximo de 90 dias);</li>
-                <li>Documento de identidade oficial, CPF e informação sobre profissão e endereço dos cônjuges;</li>
-                <li>Escritura de pacto antenupcial (se houver);</li>
-                <li>Documento de identidade oficial, CPF e informação sobre profissão e endereço dos filhos maiores (se houver) e certidão de casamento (se casados).</li>
-            </ul><h5>Documentos necessários à comprovação da titularidade dos bens (se houver):</h5>
-
-<ul>
-    <li>Imóveis urbanos: via original da certidão negativa de ônus atualizada (30 dias) expedida pelo cartório de registro de imóveis, carnê de <abbr title="Imposto Predial e Territorial Urbano">IPTU</abbr>, certidão de tributos municipais incidentes sobre imóveis, declaração de quitação de débitos condominiais.</li>
-    <li>Imóveis rurais: via original da certidão negativa de ônus atualizada (30 dias) expedida pelo cartório de registro de imóveis, declaração de <abbr title="Imposto sobre a Propriedade Territorial Rural">ITR</abbr> dos últimos cinco anos ou Certidão Negativa de Débitos de Imóvel Rural emitida pela Secretaria da Receita Federal, Certificado de Cadastro de Imóvel Rural (CCIR) expedido pelo <abbr title="Instituto Nacional de Colonização e Reforma Agrária">INCRA</abbr>.</li>
-    <li>Bens móveis: documentos de veículos, extratos de ações, contratos sociais de empresas, notas fiscais de bens e joias, etc.</li>
-    <li>Descrição da partilha dos bens.</li>
-    <li>Definição sobre a retomada do nome de solteiro ou manutenção do nome de casado.</li>
-    <li>Definição sobre o pagamento ou não de pensão alimentícia.</li>
-    <li>Carteira da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr>, informação sobre estado civil e endereço do advogado.</li>
-</ul>
-
-<p>Em caso de partilha de bens, deve ser providenciado também o pagamento de eventuais impostos devidos.</p>
-
-<p>Quando houver transmissão de bem imóvel de um cônjuge para o outro, a título oneroso, sobre a parte excedente à meação, incide o imposto municipal <abbr title="Impostos de Transmissão de Bens Imóveis">ITBI</abbr>.</p>
-
-<p>Quando houver transmissão de bem móvel ou imóvel de um cônjuge para outro, a título gratuito, sobre a parte excedente à meação, incide o imposto estadual <abbr title="Imposto de transmissão causa mortis e doação">ITCMD</abbr>.</p>
-
-<p>Embora a lei faculte a partilha para momento futuro, é recomendável que os interessados resolvam as questões patrimoniais no mesmo ato.</p>
-</div>
-<div class="modal-footer"><button type="button" class="btn-primary" data-dismiss="modal">Fechar</button></div>
-</article>';
+        let content = '<article><div class="modal-header"><h3 class="modal-title">Divórcio e Separação Extrajudicial</h3><button type="button" class="btn-primary btn-circled" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><h5>O que é?</h5><p>Separação é uma forma de dissolução da sociedade conjugal que extingue os deveres de coabitação e fidelidade próprios do casamento, bem como o regime de bens. Fica mantido, contudo, o vínculo matrimonial entre os separados, que os impede de contrair outro casamento.</p><p>Divórcio é uma forma de dissolução do casamento por vontade das partes. Ele pode ser feito a qualquer tempo, independentemente do cumprimento de prazos. Somente após o divórcio é permitido aos cônjuges contrair novo casamento.</p><p>A <cite>Lei 11.441/07</cite> facilitou a vida do cidadão e desburocratizou os procedimentos de divórcio e de separação consensuais ao permitir a realização desses atos em cartório de forma rápida, simples e segura.</p><h5>Quais são os requisitos para a realização de um divórcio ou separação em cartório?</h5><p>O principal requisito é o consenso entre o casal quanto à decisão de separação ou divórcio. Se houver litígio entre eles, o processo deve necessariamente ser judicial.</p><p>Além disso, o casal não pode ter filhos menores ou incapazes. Se a mulher estiver grávida, também não poderá ser feito o divórcio ou separação. Todavia, se devidamente for comprovada a prévia resolução judicial de todas as questões referentes aos filhos menores (guarda, visitação e alimentos), poderá ser realizado o divórcio ou a separação em cartório.</p><p>A escritura de separação ou divórcio não depende de homologação judicial e deve ser averbada no Cartório de Registro Civil para alteração do estado civil das partes.</p><p>Para transferência dos bens para o nome de cada um dos cônjuges é necessário apresentar a escritura para registro no Cartório de Registro de Imóveis (bens imóveis), no <abbr title="Departamento Estadual de Trânsito">Detran</abbr> (veículos), no Cartório de Registro Civil de Pessoas Jurídicas ou na Junta Comercial (sociedades), nos Bancos (contas bancárias), etc.</p><p>Mesmo havendo processo judicial em andamento, os interessados podem, a qualquer momento, desistir do processo e optar pela separação ou divórcio consensual em cartório, desde que preenchidos os requisitos legais.</p><p>É livre a escolha do Cartório de Notas para lavratura da escritura, independente do domicílio das partes ou do local do casamento.</p><p>Além disso, a lei exige a participação de um advogado como assistente jurídico das partes nas escrituras de separação e divórcio. As partes podem ter advogados distintos ou um só advogado para ambos.</p><p>Os cônjuges também podem se fazer representar por procuração pública, feita em cartório de notas, a qual deverá conter poderes especiais e expressos para essa finalidade, com prazo de validade de 30 (trinta) dias.</p><h5>Documentos necessários</h5><ul><li>Certidão de casamento (atualizada – prazo máximo de 90 dias);</li><li>Documento de identidade oficial, CPF e informação sobre profissão e endereço dos cônjuges;</li><li>Escritura de pacto antenupcial (se houver);</li><li>Documento de identidade oficial, CPF e informação sobre profissão e endereço dos filhos maiores (se houver) e certidão de casamento (se casados).</li></ul><h5><u>Documentos necessários à comprovação da titularidade dos bens (se houver):</u></h5><ul><li>Imóveis urbanos: via original da certidão negativa de ônus atualizada (30 dias) expedida pelo cartório de registro de imóveis, carnê de <abbr title="Imposto Predial e Territorial Urbano">IPTU</abbr>, certidão de tributos municipais incidentes sobre imóveis, declaração de quitação de débitos condominiais.</li><li>Imóveis rurais: via original da certidão negativa de ônus atualizada (30 dias) expedida pelo cartório de registro de imóveis, declaração de <abbr title="Imposto sobre a Propriedade Territorial Rural">ITR</abbr> dos últimos cinco anos ou Certidão Negativa de Débitos de Imóvel Rural emitida pela Secretaria da Receita Federal, Certificado de Cadastro de Imóvel Rural (CCIR) expedido pelo <abbr title="Instituto Nacional de Colonização e Reforma Agrária">INCRA</abbr>.</li><li>Bens móveis: documentos de veículos, extratos de ações, contratos sociais de empresas, notas fiscais de bens e joias, etc.</li><li>Descrição da partilha dos bens.</li><li>Definição sobre a retomada do nome de solteiro ou manutenção do nome de casado.</li><li>Definição sobre o pagamento ou não de pensão alimentícia.</li><li>Carteira da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr>, informação sobre estado civil e endereço do advogado.</li></ul><p>Em caso de partilha de bens, deve ser providenciado também o pagamento de eventuais impostos devidos.</p><p>Quando houver transmissão de bem imóvel de um cônjuge para o outro, a título oneroso, sobre a parte excedente à meação, incide o imposto municipal <abbr title="Impostos de Transmissão de Bens Imóveis">ITBI</abbr>.</p><p>Quando houver transmissão de bem móvel ou imóvel de um cônjuge para outro, a título gratuito, sobre a parte excedente à meação, incide o imposto estadual <abbr title="Imposto de transmissão causa mortis e doação">ITCMD</abbr>.</p><p>Embora a lei faculte a partilha para momento futuro, é recomendável que os interessados resolvam as questões patrimoniais no mesmo ato.</p></div><div class="modal-footer"><button type="button" class="btn-primary" data-dismiss="modal">Fechar</button></div></article>';
         el.innerHTML = content;
     }
 
     function conteudoAtaNotarial(){
         let el = document.getElementById('ataNotarial');
-        let content = '';
+        let content = '<article><div class="modal-header"><h3 class="modal-title">Atas Notariais</h3><button type="button" class="btn-primary btn-circled" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><h5>O que é?</h5><p>A ata notarial é um instrumento público no qual o tabelião documenta, de forma imparcial, um fato, uma situação ou uma circunstância presenciada por ele, perpetuando-os no tempo. A ata notarial tem eficácia probatória, presumindo-se verdadeiros os fatos nela contidos. É um importante meio de prova na esfera judicial, conforme disposto no artigo 384 do Código de Processo Civil (<cite>Lei 13.105/2015</cite>).</p><p>Ela pode ser utilizada, por exemplo, para comprovar a existência e o conteúdo de sites na internet, conversas de Whatsapp, realização de assembleias de pessoas jurídicas, o estado de imóveis na entrega de chaves ou atestar a presença de uma pessoa em determinado lugar ou a ocorrência de qualquer fato.</p><p>O interessado poderá solicitar a lavratura da ata notarial, bem como a realização de diligências dentro da circunscrição a qual pertence o cartório, para certificação de qualquer fato.</p></div><div class="modal-footer"><button type="button" class="btn-primary" data-dismiss="modal">Fechar</button></div></article>';
         el.innerHTML = content;
     }
 
@@ -124,7 +67,7 @@
 
     function conteudoCertidao(){
         let el = document.getElementById('certidao');
-        let content = '';
+        let content = '<article><div class="modal-header"><h3 class="modal-title">Certidões</h3><button type="button" class="btn-primary btn-circled" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><h5>O que é?</h5><p>Os atos praticados pelo Tabelião de Notas, exceto o reconhecimento de firma e a autenticação de cópias, são todos feitos em livro próprio, que fica arquivado para sempre.  Assim, de todos os atos feitos no livro do Tabelião de Notas, se pode, a qualquer tempo, obter cópias fiéis, com a mesma validade dos originais, que são as certidões.</p><h5>Como é feito?</h5><p>A certidão pode ser obtida por cópia reprográfica, sendo fornecida na hora, ou pode ser datilografada, sendo fornecida em um prazo máximo de 5 dias úteis.</p><h5>Documentos necessários:</h5><ul><li>Cópia do ato do qual deseja uma certidão (certidão antiga) ou</li><li>Número do Livro e da Página em que está o ato ou nome completo das partes constantes no ato.</li><li>Pedido de Certidão de Testamento</li></ul><p>Para realizar a solicitação de informação sobre existência de testamento é necessário acessar o portal www.censec.org.br, mais precisamente no link Busca de Testamento, realizar seu cadastro e encaminhar os documentos solicitados.</p></div><div class="modal-footer"><button type="button" class="btn-primary" data-dismiss="modal">Fechar</button></div></article>';
         el.innerHTML = content;
     }
 
@@ -136,4 +79,8 @@
     conteudoTestamento()
     conteudoInventario()
     conteudoUniaoEstavel()
+    conteudoDivorcio()
+    conteudoAtaNotarial()
+    conteudoAlegacao()
+    conteudoCertidao()
 }
