@@ -288,6 +288,11 @@
 /* Extra Small Devices, Phones */
 
 @media (min-width: 478px) and (max-width: 640px) {
+    
+    i.icons {
+        display: none
+    }
+    
     .display-4 {
         font-size: 2.5rem;
     }
@@ -463,6 +468,11 @@
 
 /* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px) {
+    
+    i.icons {
+        display: none
+    }
+    
     .bg-light {
         background: transparent !important;
     }
