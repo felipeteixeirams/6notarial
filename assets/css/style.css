@@ -1667,3 +1667,8 @@ ul.li-hifen > li{
 ul.li-hifen > li:before{
     content: "- "
 }
+.footer-links-2 {
+    padding-left: 0;
+    list-style-type: none;
+    color: #888888
+}

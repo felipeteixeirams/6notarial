@@ -1,22 +1,17 @@
 REVISAO DO TABELIAO:
-1 - Abertura de Firma e Reconhecimento de firma*
-2 - Testamento ( + Testamento Vital DAV)*
-3 - Autenticação de cópia*
-4 - Inventário extrajudicial*
-5 - Convenção da Apostila de Haia*
-6 - Declaração de união estável (+ homo afetiva + dissolução)*
-7 - Procuração e Substabelecimento (+Revogação de procuração)*
-8 - Divórcio e Separação Extrajudicial*
-9 - Escrituras diversas, inclusive Compra e Venda, doação etc....*
-10 - Ata notarial*
-11 - Certidões*
-12 - Alegação de Venda de Veículos ao DETRAN/MS*
-13 - Declarações em geral
-14 - Reconhecimento de filho
-15 - Pacto antenupcial
-16 - Usucapião extrajudicial
-17 - Autorização de viagem de menor
-18 - Emancipação
+1 - Abertura de Firma e Reconhecimento de firma *
+2 - Testamento (Testamento Vital DAV) *
+3 - Autenticação de cópia *
+4 - Convenção da Apostila de Haia *
+5 - Procuração e Substabelecimento (Revogação de procuração) *
+6 - Escrituras (Compra e Venda, doação, inventário extrajudicial, Divórcio, União estável e Separação Extrajudicial, Emancipação, Ata notarial) *
+7 - Certidões *
+8 - Alegação de Venda de Veículos ao DETRAN/MS *
+9 - Declarações em geral
+10 -Reconhecimento de filho
+11 -Pacto antenupcial
+12 -Usucapião extrajudicial
+13 -Autorização de viagem de menor
 
 OUTROS CARTÓRIOS:
 Escritura Pública / Escrituras
