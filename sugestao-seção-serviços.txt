@@ -1,4 +1,5 @@
 REVISAO DO TABELIAO:
+
 1 - Abertura de Firma e Reconhecimento de firma *
 2 - Testamento (Testamento Vital DAV) *
 3 - Autenticação de cópia *
@@ -7,6 +8,9 @@ REVISAO DO TABELIAO:
 6 - Escrituras (Compra e Venda, doação, inventário extrajudicial, Divórcio, União estável e Separação Extrajudicial, Emancipação, Ata notarial) *
 7 - Certidões *
 8 - Alegação de Venda de Veículos ao DETRAN/MS *
+
+
+
 9 - Declarações em geral
 10 -Reconhecimento de filho
 11 -Pacto antenupcial
