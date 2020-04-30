@@ -1672,3 +1672,29 @@ ul.li-hifen > li:before{
     list-style-type: none;
     color: #888888
 }
+
+.figure-modal {
+    position: relative;
+    box-sizing: border-box
+}
+
+.figure-caption-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 5px;
+    text-align: left;
+    text-indent: 1em;
+    color: aliceblue;
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    opacity: 0;
+}
+.figure-caption-modal:hover {
+    opacity: 1;
+    transition: 1.5s
+}
