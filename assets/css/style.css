@@ -33,7 +33,7 @@ Version      : 1.0
 
 
 html {
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Helvetica, sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -1673,28 +1673,33 @@ ul.li-hifen > li:before{
     color: #888888
 }
 
-.figure-modal {
+/* Figura grande post Modals c/ hover de Figure caption */
+figure.figure-size-big {
     position: relative;
-    box-sizing: border-box
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
 }
 
-.figure-caption-modal {
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: 5px;
-    text-align: left;
-    text-indent: 1em;
-    color: aliceblue;
-    font-family: "Segoe UI", Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 12px;
-    opacity: 0;
+figure.figure-size-big img{
+        width: 100%;
+        height: 100%
 }
-.figure-caption-modal:hover {
+
+figure.figure-size-big figurecaption {
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    margin: 5px;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: opacity 1s
+}
+figure.figure-size-big figurecaption:hover {
     opacity: 1;
-    transition: 1.5s
+    transition: opacity 1s
 }
