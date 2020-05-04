@@ -473,6 +473,13 @@
         display: none
     }
     
+    .figure-img--size-big {
+        width: 100%;
+        height: auto;
+        min-width: 50%;
+        max-width: 100%
+    }
+    
     .bg-light {
         background: transparent !important;
     }
