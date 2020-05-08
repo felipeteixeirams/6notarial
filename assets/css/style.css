@@ -1703,3 +1703,16 @@ figure.figure-size-big figurecaption:hover {
     opacity: 1;
     transition: opacity 1s
 }
+
+.slide--banner {
+    height: 70vh;
+    width: 100%
+}
+
+.grad--red-to-yellow {
+    background-image: linear-gradient(to bottom right, red, yellow)
+}
+
+.grad--grey-to-ciano {
+    background-image: linear-gradient(to bottom right, #9fbdb3, #3bb8e8)
+}
