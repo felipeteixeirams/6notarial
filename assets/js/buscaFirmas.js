@@ -14,7 +14,7 @@ const firmas = (cpf) =>{
     const buscarFirma = (cpf) =>{
         const firmas = carregarTodasFirmas()
     
-        const firmaEncontrada = firmas.find((firma) => firma.cpf === cpf)
+        const firmaEncontrada = firmas.find((firmas) => firmas.cpf === cpf)
     
         if(firmaEncontrada !== undefined){
             return firmaEncontrada
