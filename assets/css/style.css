@@ -1716,3 +1716,24 @@ figure.figure-size-big figurecaption:hover {
 .grad--grey-to-ciano {
     background-image: linear-gradient(to bottom right, #9fbdb3, #3bb8e8)
 }
+
+.img--slide1 {
+    background-image: url(/assets/img/banner/banner-01_1920x895.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.img--slide2 {
+    background-image: url(/assets/img/banner/banner-01_1920x895.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.img--slide3 {
+    background-image: url(/assets/img/banner/banner-01_1920x895.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
