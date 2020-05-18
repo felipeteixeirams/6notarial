@@ -150,25 +150,25 @@
                         </li>
                         <li class="nav-item ">
                             <a href="#blog" class="nav-link js-scroll-trigger">
-                                Destaques
+                                Informativos
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Links
+                                Links úteis
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarWelcome">
                                 <a class="dropdown-item " href="https://buscatestamento.org.br/" target="_blank">
-                                    Busca de Testamento (Cnb)
+                                    Busca de Testamento (<abbr title="Colégio Notarial do Brasil">CNB</abbr>)
                                 </a>
-                                <a class="dropdown-item " href="https://www.tjms.jus.br/corregedoria/selos/pesquisaSelo.php" target="_blank">
-                                    Consulta de Selo (Tjms)
+                                <a class="dropdown-item " href="" data-toggle="modal" data-target="#modalConsultaSelo">
+                                    Consulta de Selo (<abbr title="Corregedoria Geral do MS">SIGEX</abbr>)
                                 </a>
-                                <a class="dropdown-item " href="http://www.detran.ms.gov.br/veiculos-2/consulta-comunicacao-de-venda-registrada/" target="_blank">
-                                    Consulta Alegação de Venda (Detran/MS)
+                                <a class="dropdown-item " href="" data-toggle="modal" data-target="#modalConsultaAlegacao">
+                                    Consulta Alegação de Venda (<abbr title="Departamento Estadual de Trânsito do MS">DETRAN/MS</abbr>)
                                 </a>
                                 <a class="dropdown-item " href="https://www.escriturasimples.org.br/" target="_blank">
-                                    Sistema Escritura Simples (Cnb)(Novo*)
+                                    Escritura Simples (<abbr title="Colégio Notarial do Brasil">CNB</abbr>)
                                 </a>
                             </div>
                         </li>
@@ -478,7 +478,39 @@
     <!-- CONTEUDO DAS MODAIS
     ================================================== -->
     <div>
-        <!-- Autenticação -->
+        <!-- MODAL Consulta a Selo de Autenticidade -->
+        <div class="modal fade" id="modalConsultaSelo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content" id="consultaSelo">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Consulta de Selo Eletrônico</h2><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body blog-content">
+                        <iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" frameborder="0" height="400px" width="100%"></iframe>
+                    </div>
+                    <div class="modal-footer"><button type="button" class="btn btn btn-primary" data-dismiss="modal">Fechar</button></div>
+                </div>
+            </div>
+        </div>
+        <!--/Consulta a Selo de Autenticidade -->
+
+        <!-- MODAL Consulta Comunicação de Venda Registrada DETRANMS -->
+        <div class="modal fade" id="modalConsultaAlegacao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content" id="consultaSelo">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Consulta de Comunicação de Venda Registrada (DETRAN/MS)</h2><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body blog-content">
+                        <iframe src="http://www2.detran.ms.gov.br/detranet/nsite/veiculo/consCV/cCv.asp" frameborder="0" height="400px" width="100%"></iframe>
+                    </div>
+                    <div class="modal-footer"><button type="button" class="btn btn btn-primary" data-dismiss="modal">Fechar</button></div>
+                </div>
+            </div>
+        </div>
+        <!--/Consulta Comunicação de Venda Registrada DETRANMS -->
+
+        <!-- MODAL Autenticação -->
         <div class="modal fade" id="modalAutenticacao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" id="autenticacao">
@@ -499,7 +531,7 @@
         </div>
         <!--/Autenticação -->
 
-        <!-- Reconhecimento -->
+        <!-- MODAL Reconhecimento -->
         <div class="modal fade" id="modalReconhecimento" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" id="reconhecimento">
@@ -544,6 +576,13 @@
                         <p>Para que o reconhecimento de firma seja feito, a assinatura do documento deve ser semelhante àquela da ficha de firma. A ficha de firma não tem prazo de validade, mas as pessoas mudam sua assinatura com o passar dos anos. Nestes casos, é preciso que a pessoa compareça novamente ao cartório, para renovar sua ficha de firma.</p>
                         <p>Atenção: é vedado o reconhecimento de firma em documentos sem data, com espaços em branco ou incompletos. Por isso, antes de comparecer ao cartório, certifique-se de que todos os dados constantes no documento estão preenchidos e que o mesmo não foi pós-datado.</p>
                         <p class="pt-2"><i class="ti-light-bulb"></i>&nbsp;&nbsp;Acesse a <a href="https://www.tjms.jus.br/legislacao/visualizar.php?lei=21119" target="_blank">Tabela de Preços</a> e confira o custo deste e de outros serviços.</p>
+                        <fieldset>
+                            <legend>Consultar firma</legend>
+                            <label for="#campoCpf">Busca pelo CPF:</label>
+                            <input id="campoCpf" type="text" name="campoCpf" placeholder="Informe o CPF">
+                            <button onclick="buscarFirmaCpf()">Enviar</button>
+                            <p><span id="resultadoBusca"></span></p>
+                        </fieldset>
                     </div>
                     <div class="modal-footer"><button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button></div>
                 </div>
@@ -551,7 +590,7 @@
         </div>
         <!--/Reconhecimento -->
 
-        <!-- Apostila -->
+        <!-- MODAL Apostila -->
         <div class="modal fade" id="modalApostila" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" id="apostila">
@@ -579,7 +618,7 @@
             </div>
         </div><!-- Apostila -->
 
-        <!-- Escritura -->
+        <!-- MODAL Escritura -->
         <div class="modal fade" id="modalEscritura" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" id="escritura">
@@ -657,7 +696,7 @@
             </div>
         </div><!-- \Escritura -->
 
-        <!-- Procuracao -->
+        <!-- MODAL Procuracao -->
         <div class="modal fade" id="modalProcuracao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" id="procuracao">
@@ -686,7 +725,7 @@
             </div>
         </div><!-- \Procuracao -->
 
-        <!-- Testamento -->
+        <!-- MODAL Testamento -->
         <div class="modal fade" id="modalTestamento" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" id="testamento">
@@ -724,7 +763,7 @@
             </div>
         </div><!-- \Testamento -->
 
-        <!-- Alegacao -->
+        <!-- MODAL Alegacao -->
         <div class="modal fade" id="modalAlegacao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" id="alegacao">
@@ -745,7 +784,7 @@
             </div>
         </div><!-- \Alegacao -->
 
-        <!-- Certidao -->
+        <!-- MODAL Certidao -->
         <div class="modal fade" id="modalCertidao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" id="certidao">
@@ -774,7 +813,7 @@
 
         <!-- Seção Informativos 
         ============================================= -->
-        <!-- Post 01 -->
+        <!-- MODAL Post 01 -->
         <div class="modal fade" id="post01Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" id="materia-cnj-cartorios">
@@ -801,7 +840,7 @@
             </div>
         </div><!-- \Post 01 -->
 
-        <!-- Post 02 -->
+        <!-- MODAL Post 02 -->
         <div class="modal fade" id="post02Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" id="materia-cnj-lavagem">

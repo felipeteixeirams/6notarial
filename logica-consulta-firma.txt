@@ -1,0 +1,8 @@
+- Opção pesquisar pelo CPF ou pelo NOME COMPLETO. 
+(input do tipo RADIO, dependendo da opção marcada habilita um input e opção de busca)
+
+- Se a pesquisa for com CPF, retornar se existe firma aberta primeiro nome da pessoa.(input 
+
+- Da mesma forma, se for com NOME COMPLETO, da retorno positivo ou negativo e retorna alguns digitos do CPF.
+
+- A busca terá um botão para realizar a busca e outro com função de reset para realizar nova pesquisa.

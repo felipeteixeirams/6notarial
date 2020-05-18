@@ -1,29 +1,27 @@
-const firmas = (cpf) =>{
+const buscarFirmaCpf = () =>{
+    const cpfInformado = document.getElementById('campoCpf')
+    const campoResultadoBusca = document.querySelector('#resultadoBusca')
 
     //ler todas as Firmas no JSON
     const carregarTodasFirmas = () =>{
-        try{
-            const firmasBuffer = fs.readFileSync('../files/firmas.json')   
-            return JSON.parse(firmasBuffer.toString())
-        }catch (error){
-            return []
-        }
+        const firmasBuffer = fs.readFileSync('../files/firmas.json')   
+        return JSON.parse(firmasBuffer.toString())
     }
 
     //Buscar firma pelo nome
     const buscarFirma = (cpf) =>{
+        //lista de firmas
         const firmas = carregarTodasFirmas()
     
-        const firmaEncontrada = firmas.find((firmas) => firmas.cpf === cpf)
+        //comparar cpf informado com a lista de firmas
+        const firmaEncontrada = firmas.find((cpf) => firmas.cpf === cpf)
     
+        //testando e retornando pensagens
         if(firmaEncontrada !== undefined){
-            return firmaEncontrada
+            campoResultadoBusca.textContent = '<strong>Possui firma aberta para o CPF informado!</strong>'
         }else{
-            return console.log('Não possui firma aberta para este CPF.')
+            campoResultadoBusca.textContent = '<strong>Não possui firma aberta para o CPF informado.</strong>'
         }
     }
-
-    buscarFirma(cpf)
+    buscarFirma(cpfInformado.value)
 }
-
-module.exports = firmas
