@@ -16,6 +16,12 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+    .carousel-item {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%
+    }
+    
     i.icons {
         display: none
     }
@@ -41,7 +47,7 @@
     }
 
     .main-navigation {
-        margin-top: 20px;
+        margin-top: -30px;
     }
 
     .main-nav .navbar-brand h4 {
@@ -146,6 +152,16 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+    .carousel-item {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%
+    }
+    
+    #top-bar {
+        display: none
+    }
+    
     i.icons {
         display: none
     }
@@ -279,15 +295,22 @@
         margin-bottom: 40px;
     }
 
-    .top-bar-content {
-        display: none
-    }
 
 }
 
 /* Extra Small Devices, Phones */
 
 @media (min-width: 478px) and (max-width: 640px) {
+    
+    .carousel-item {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%
+    }
+    
+    #top-bar {
+        display: none
+    }
     
     i.icons {
         display: none
@@ -468,6 +491,16 @@
 
 /* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px) {
+    
+    .carousel-item {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%
+    }
+    
+    #top-bar {
+        display: none
+    }
     
     i.icons {
         display: none
@@ -655,8 +688,4 @@
     .size-1 {
         font-size: 65%
     }
-}
-
-.info-block {
-    min-width: 93px
 }
