@@ -554,7 +554,7 @@ img {
 -------------------*/
 
 .logo-bar {
-    padding: 30px 0px 60px;
+    padding: 20px 0px 50px;
 }
 
 .top-info-block {
@@ -1650,3 +1650,4 @@ figure.modal__figure figurecaption:hover {
     opacity: 1;
     transition: opacity 1s
 }
+
