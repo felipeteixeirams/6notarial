@@ -1465,9 +1465,12 @@ CONTACT PAGE
     MAP
 -----------------*/
 
-#map {
-    height: 400px;
+div#map>iframe {
+    height: 300px;
     width: 100%;
+    border:0;
+    box-sizing: border-box;
+    margin: auto
 }
 
 
