@@ -24,6 +24,10 @@
 
 
 
+/*--------------------
+ GLOBAL
+-----------------*/
+
 html {
     font-family: 'Segoe UI', Helvetica, sans-serif;
     line-height: 1.15;
@@ -44,7 +48,7 @@ body {
     color: #6c757d;
 }
 
-/*--------------------
+/*----------------
  TYPOGRAPHY
 -----------------*/
 
@@ -169,10 +173,6 @@ a:focus {
     margin-bottom: 0px !important;
 }
 
-/*--------------------
-
------------------*/
-
 
 img {
     vertical-align: middle;
@@ -290,6 +290,18 @@ img {
     background: #232323 !important;
     border-color: #232323 !important;
     color: #fff;
+}
+
+/*-------------------
+   LOGO
+----------------------*/
+
+#logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    height: 77px;
+    width: 224px;
+    margin-bottom: 10px
 }
 
 /*-------------------
@@ -449,7 +461,6 @@ img {
 
 }
 
-
 /*-------------------
   DROPDOWN MENU
 ----------------------*/
@@ -491,13 +502,6 @@ img {
     }
 }
 
-
-
-
-
-
-
-
 /*------------------------
  BACKGROUND AND CAROUSEL
 ----------------------------*/
@@ -528,6 +532,14 @@ img {
 .box-shadow {
     box-shadow: 0 25px 100px -5px rgba(0, 0, 0, .15)
 }
+
+.bg-default {
+    background-image: url(../img/banner/bg_default.jpg);
+    background-repeat: repeat;
+    height: 80vh
+}
+
+/*--- 1º Slide ---*/
 
 
 
@@ -1653,4 +1665,15 @@ figure.modal__figure figurecaption:hover {
     opacity: 1;
     transition: opacity 1s
 }
+.carousel-figure {
+    display: inline-block;
+    position: absolute;
+}
 
+figure.carousel-figure img {
+    width: 100%
+}
+
+figure.carousel-figure figurecaption {
+    display: none
+}
