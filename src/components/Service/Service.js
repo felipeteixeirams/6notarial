@@ -1,6 +1,6 @@
 import '../../_assents/css/responsive.css';
 
-function Service(props) {
+const Service = (props) => {
     return (
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6 text-center">

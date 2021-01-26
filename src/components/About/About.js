@@ -1,6 +1,6 @@
 import predio from "../../_assents/img/banner/predio-768x1151.jpg";
 
-function About() {
+const About = () => {
     return (
         <div>
             <div className="row justy-content-center">

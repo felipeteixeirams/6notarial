@@ -48,6 +48,15 @@ ReactDOM.render(
         />
       }
     />
+    <Section 
+      id = {sections.blog.id}
+      head = {
+        <SectionTitle 
+          title = {sections.blog.title}
+          description = {sections.blog.description}
+        />
+      }
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,4 +1,4 @@
-function Section(props) {
+const Section = (props) => {
     return (
         <section className={'section ' + props.color} id={props.id}>
             <div className="container">

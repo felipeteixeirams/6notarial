@@ -2,7 +2,7 @@ import React from 'react';
 import TopBar from '../TopBar/TopBar';
 import Menu from '../Menu/Menu';
 
-function App() {
+const App = () => {
   return (
     <React.StrictMode>
       <TopBar />

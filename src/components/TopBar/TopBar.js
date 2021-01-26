@@ -1,7 +1,7 @@
 import '../../_assents/css/all.css';
 import '../../_assents/css/responsive.css';
 
-function TopBar() {
+const TopBar = () =>{
   return (
     <div>
       <div className="top-bar bg-dark " id="top-bar">

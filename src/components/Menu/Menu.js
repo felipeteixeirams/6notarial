@@ -2,7 +2,7 @@ import '../../_assents/css/all.css';
 import '../../_assents/css/responsive.css';
 import '../../_assents/fonts/themify/themify-icons.css';
 
-function Menu() {
+const Menu = () => {
     return (
         <div className="main-navigation" id="mainmenu-area">
             <div className="container">
