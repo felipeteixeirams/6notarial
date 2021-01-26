@@ -311,7 +311,7 @@ img {
 ----------------------*/
 
 #logo {
-    background-image: url(./images/logo/logo.png);
+    background-image: url(./_assents/img/logo/logo.png);
     background-repeat: no-repeat;
     height: 77px;
     width: 224px;
@@ -547,15 +547,6 @@ img {
     box-shadow: 0 25px 100px -5px rgba(0, 0, 0, .15)
 }
 
-.bg-default {
-    /* background-image: url(./images/banner/bg_default.jpg); */
-    background-repeat: repeat;
-    height: 80vh
-}
-
-/*--- 1º Slide ---*/
-
-
 
 /*----------------------
  HEADER STYLE
@@ -754,7 +745,7 @@ h5.subtitle {
 
 #services {
     position: relative;
-    background: url("./images/bg/6.jpg")no-repeat fixed 50% 50%;
+    background: url("./_assents/img/bg/6.jpg")no-repeat fixed 50% 50%;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -884,7 +875,7 @@ h5.subtitle {
 -----------------------*/
 /* #projects-wrap {
     position: relative;
-    background: url("./images/bg/banner_bg.jpg")no-repeat;
+    background: url("./_assents/img/bg/banner_bg.jpg")no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 } */
@@ -1061,7 +1052,7 @@ SECTION TESTIMONIAL
 }
 
 #footer {
-    background: url("./images/bg/10.jpg");
+    background: url("./_assents/img/bg/10.jpg");
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1174,7 +1165,7 @@ SECTION TESTIMONIAL
 -----------------------------*/
 #banner {
     position: relative;
-    background: url("./images/bg/10.jpg")no-repeat;
+    background: url("./_assents/img/bg/10.jpg")no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1373,29 +1364,15 @@ PRICING
 
 /*--------------------------
 PAGE BANNER
---------------------------*/
+--------------------------
 
 .carousel__img--slide1 {
-    background-image: url(./images/banner/banner_01.png);
+    background-image: url(./_assents/img/banner/banner_01.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100vh
 }
-
-.carousel__img--slide2 {
-    background-image: url(./images/banner/banner_01.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100vh
-}
-
-.carousel__img--slide3 {
-    background-image: url(./images/banner/banner_01.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1110px
-}
-
+*/
 .page-banner-area {
     padding: 180px 0px;
 }

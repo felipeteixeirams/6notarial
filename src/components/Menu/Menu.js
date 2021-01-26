@@ -1,13 +1,15 @@
-import '../responsive.css';
+import '../../_assents/css/all.css';
+import '../../_assents/css/responsive.css';
+import '../../_assents/fonts/themify/themify-icons.css';
 
 function Menu() {
     return (
         <div className="main-navigation" id="mainmenu-area">
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable">
-                    <a className="navbar-brand d-lg-none d-block" href="">
+                    <span className="navbar-brand d-lg-none d-block">
                         <h4>6º Serviço Notarial</h4>
-                    </a>
+                    </span>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="fa fa-bars"></span>
                     </button>
@@ -29,20 +31,20 @@ function Menu() {
                             </a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle" href="#navbarCollapse" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Links úteis
                             </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarWelcome">
                                     <a className="dropdown-item " href="https://buscatestamento.org.br/" target="_blank" rel="noreferrer">
                                         Busca de Testamento (<abbr title="Colégio Notarial do Brasil">CNB</abbr>)
                                 </a>
-                                    <a className="dropdown-item " href="" data-toggle="modal" data-target="#modalConsultaAlegacao">
+                                    <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaAlegacao">
                                         Consultar Comunicação de Venda (<abbr title="Departamento Estadual de Trânsito do MS">DETRAN/MS</abbr>)
                                 </a>
-                                    <a className="dropdown-item " href="" data-toggle="modal" data-target="#modalConsultaFirma">
+                                    <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaFirma">
                                         Consultar Firma Aberta (<abbr title="Corregedoria Geral do MS">SIGEX</abbr>)
                                 </a>
-                                    <a className="dropdown-item " href="" data-toggle="modal" data-target="#modalConsultaSelo">
+                                    <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaSelo">
                                         Consultar Selo de Autenticidade (<abbr title="Corregedoria Geral do MS">SIGEX</abbr>)
                                 </a>
                                     <a className="dropdown-item " href="https://www.e-notariado.org.br/" target="_blank" rel="noreferrer">
