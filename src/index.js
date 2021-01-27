@@ -20,7 +20,47 @@ var sections = {
   services: {
     id: "services",
     title: "Serviços",
-    description: "Conheça mais sobre os principais serviços oferecidos por nós."
+    description: "Conheça mais sobre os principais serviços oferecidos por nós.",
+    autenticacao: {
+      id: "Autenticacao",
+      icon: "ti-stamp",
+      content: "Autenticação de cópia"
+    },
+    reconhecimento: {
+      id: "Reconhecimento",
+      icon: "ti-id-badge",
+      content: "Abertura e Reconhecimento de Firma"
+    },
+    apostila: {
+      id: "Apostila",
+      icon: "ti-world",
+      content: "Convenção da Apostila da Haia"
+    },
+    escritura: {
+      id: "Escritura",
+      icon: "ti-home",
+      content: "Escrituras"
+    },
+    procuracao: {
+      id: "Procuracao",
+      icon: "ti-id-badge",
+      content: "Procuração, Substabelecimento e Revogação"
+    },
+    testamento: {
+      id: "Testamento",
+      icon: "ti-pencil-alt",
+      content: "Testamento"
+    },
+    alegacao: {
+      id: "Alegacao",
+      icon: "ti-car",
+      content: "Alegação de Venda de Veículo (Detran/MS)"
+    },
+    certidao: {
+      id: "Certidao",
+      icon: "ti-files",
+      content: "Certidões"
+    }
   },
   blog: {
     id: "blog",
@@ -48,14 +88,51 @@ ReactDOM.render(
           title = {sections.services.title}
           description = {sections.services.description}
           color = {sections.textWhite}
-          content = {
-            <Service 
-              modalId = {"Autenticacao"}
-              icon = {"ti-stamp"}
-              content = {"Autenticação de cópia"}
-            />
-          }
         />
+      }
+      content = {
+        [
+          <Service 
+            modalId = {sections.services.autenticacao.id}
+            icon = {sections.services.autenticacao.icon}
+            content = {sections.services.autenticacao.content}
+          />,
+          <Service 
+            modalId = {sections.services.reconhecimento.id}
+            icon = {sections.services.reconhecimento.icon}
+            content = {sections.services.reconhecimento.content}
+          />,
+          <Service 
+            modalId = {sections.services.apostila.id}
+            icon = {sections.services.apostila.icon}
+            content = {sections.services.apostila.content}
+          />,
+          <Service 
+            modalId = {sections.services.escritura.id}
+            icon = {sections.services.escritura.icon}
+            content = {sections.services.escritura.content}
+          />,
+          <Service 
+            modalId = {sections.services.procuracao.id}
+            icon = {sections.services.procuracao.icon}
+            content = {sections.services.procuracao.content}
+          />,
+          <Service 
+            modalId = {sections.services.testamento.id}
+            icon = {sections.services.testamento.icon}
+            content = {sections.services.testamento.content}
+          />,
+          <Service 
+            modalId = {sections.services.alegacao.id}
+            icon = {sections.services.alegacao.icon}
+            content = {sections.services.alegacao.content}
+          />,
+          <Service 
+            modalId = {sections.services.certidao.id}
+            icon = {sections.services.certidao.icon}
+            content = {sections.services.certidao.content}
+          />
+        ]
       }
     />
   </React.StrictMode>,

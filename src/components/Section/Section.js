@@ -1,9 +1,12 @@
 const Section = (props) => {
+    if(props.content )
     return (
         <section className={`section ${props.bgColor}`} id={props.id}>
             <div className="container">
                 {props.head}
-                {props.content}
+                <div className="row">
+                    {props.content}
+                </div>
             </div>
         </section>
     );
