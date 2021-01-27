@@ -9,11 +9,13 @@ import Carousel from './components/Carousel/Carousel';
 import Section from './components/Section/Section';
 import About from './components/About/About';
 import SectionTitle from './components/Section/SectionTitle';
+import Service from './components/Service/Service';
 
 var sections = {
+  bgGrey: "bg-grey",
+  textWhite: "text-white",
   about: {
-    id: "sobre",
-    color: "br-grey"
+    id: "sobre"
   },
   services: {
     id: "services",
@@ -32,8 +34,8 @@ ReactDOM.render(
     <TopBar />
     <Menu />
     <Carousel />
-    <Section 
-      color = {sections.about.color}
+    <Section
+      bgColor = {sections.bgGrey}
       id = {sections.about.id}
       content = {
         <About />
@@ -45,15 +47,14 @@ ReactDOM.render(
         <SectionTitle 
           title = {sections.services.title}
           description = {sections.services.description}
-        />
-      }
-    />
-    <Section 
-      id = {sections.blog.id}
-      head = {
-        <SectionTitle 
-          title = {sections.blog.title}
-          description = {sections.blog.description}
+          color = {sections.textWhite}
+          content = {
+            <Service 
+              modalId = {"Autenticacao"}
+              icon = {"ti-stamp"}
+              content = {"Autenticação de cópia"}
+            />
+          }
         />
       }
     />

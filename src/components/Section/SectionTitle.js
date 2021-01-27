@@ -1,12 +1,12 @@
 const Title = (props) => {
     return (
-        <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-6 text-center">
-                <div class="section-heading">
-                    <h2 class="section-title mb-2 text-white">
+        <div className="row justify-content-center">
+            <div className="col-md-8 col-lg-6 text-center">
+                <div className="section-heading">
+                    <h2 className={'section-title mb-2 ' + props.color}>
                         {props.title}
                     </h2>
-                    <p class="mb-5 text-white">
+                    <p className={'mb-5 ' + props.color}>
                         {props.description}
                     </p>
                 </div>

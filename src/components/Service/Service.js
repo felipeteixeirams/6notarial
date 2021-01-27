@@ -1,17 +1,16 @@
 import '../../_assents/css/responsive.css';
+import '../../_assents/fonts/themify/themify-icons.css';
 
 const Service = (props) => {
     return (
-        <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-6 text-center">
-                <div class="section-heading">
-                    <h2 class="section-title mb-2 text-white">
-                        {props.title}
-                    </h2>
-                    <p class="mb-5 text-white">
-                        {props.description}
-                    </p>
-                </div>
+        <div className="row">
+            <div className="col-lg-3 col-sm-6 col-md-6 test-author-thumb">
+                <a href=" " data-toggle="modal" data-target={`#modal${props.modalId}`}>
+                    <div className="web-service-block">
+                        <i className={`${props.icon} icons`}></i>
+                        <h3>{props.content}</h3>
+                    </div>
+                </a>
             </div>
         </div>
     );

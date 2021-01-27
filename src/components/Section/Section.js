@@ -1,6 +1,6 @@
 const Section = (props) => {
     return (
-        <section className={'section ' + props.color} id={props.id}>
+        <section className={`section ${props.bgColor}`} id={props.id}>
             <div className="container">
                 {props.head}
                 {props.content}
