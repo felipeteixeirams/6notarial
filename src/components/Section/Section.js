@@ -1,5 +1,6 @@
+import '../../_assents/css/responsive.css';
+
 const Section = (props) => {
-    if(props.content )
     return (
         <section className={`section ${props.bgColor}`} id={props.id}>
             <div className="container">

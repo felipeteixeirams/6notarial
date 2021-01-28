@@ -1,3 +1,5 @@
+import '../../../_assents/css/responsive.css';
+
 const Title = (props) => {
     return (
         <div className="row justify-content-center">
