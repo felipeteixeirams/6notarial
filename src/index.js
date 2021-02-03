@@ -102,7 +102,7 @@ var sections = {
       image: ImgCard_3,
       date: "15 Junho 2019",
       title: "E-notariado promete revolucionar a prestação de serviços dos cartórios",
-      content: <p> O Conselho Federal do Colégio Nota&shy;rial do Brasil (<abbr title="Colégio Notarial do Brasil">CNB</abbr>) lançou o e-notariado, servi&shy;ços que antes eram ofere&shy;cidos somente no balcão dos tabe&shy;liona&shy;tos já podem ser obti&shy;dos pela plata&shy;forma online. Marco da entra&shy;da dos notá&shy;rios no ambiente virtual, o e-notariado ainda está em fase ini&shy;cial de implan&shy;tação.</p>,
+      content: <p> O Conselho Federal do Colégio Nota&shy;rial do Brasil (<abbr title="Conselho Federal do Colégio Notarial do Brasil">CNB-CF</abbr>) lançou o e-notariado, servi&shy;ços que antes eram ofere&shy;cidos somente no balcão dos tabe&shy;liona&shy;tos já podem ser obti&shy;dos pela plata&shy;forma online. Marco da entra&shy;da dos notá&shy;rios no ambiente virtual, o e-notariado ainda está em fase ini&shy;cial de implan&shy;tação.</p>,
       modalId: "#post01Modal"
     }
   }
