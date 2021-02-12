@@ -1,4 +1,4 @@
-import '../../../_assents/css/responsive.css';
+import '@/_assents/css/responsive.css';
 
 const Title = (props) => {
     return (

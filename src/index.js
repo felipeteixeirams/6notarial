@@ -3,18 +3,18 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 /* Imports Extras */
 import './index.css';
-import ImgCard_1 from './_assents/img/blog/card_1/cartorios-pandemia-1140x760.jpg';
-import ImgCard_2 from './_assents/img/blog/card_2/lavagem-1140x760.jpg';
-import ImgCard_3 from './_assents/img/blog/card_3/enotariado-1140x760.jpg';
+import ImgCard_1 from '@/_assents/img/blog/card_1/cartorios-pandemia-1140x760.jpg';
+import ImgCard_2 from '@/_assents/img/blog/card_2/lavagem-1140x760.jpg';
+import ImgCard_3 from '@/_assents/img/blog/card_3/enotariado-1140x760.jpg';
 /* Imports Components */
-import TopBar from './components/TopBar/TopBar';
-import Menu from './components/Menu/Menu';
-import Carousel from './components/Carousel/Carousel';
-import Section from './components/Section/Section';
-import About from './components/About/About';
-import SectionTitle from './components/Section/Title/Title';
-import Service from './components/Service/Service';
-import BlogCard from './components/Blog/BlogCard';
+import TopBar from '@/components/TopBar/TopBar';
+import Menu from '@/components/Menu/Menu';
+import Carousel from '@/components/Carousel/Carousel';
+import Section from '@/components/Section/Section';
+import About from '@/components/About/About';
+import SectionTitle from '@/components/Section/Title/Title';
+import Service from '@/components/Service/Service';
+import BlogCard from '@/components/Blog/BlogCard';
 
 /********************************************************
 * Propriedades dos componentes globais:
@@ -121,6 +121,7 @@ ReactDOM.render(
       }
     />
     <Section 
+      bgColor = {" "}
       id = {sections.services.id}
       head = {
         <SectionTitle 
@@ -175,6 +176,7 @@ ReactDOM.render(
       }
     />
     <Section 
+      bgColor = {" "}
       id = {sections.blog.id}
       head = {
         <SectionTitle 
@@ -213,7 +215,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-console.log("Olá amigo!");
+console.log("Olá amigo!👨‍💻");
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

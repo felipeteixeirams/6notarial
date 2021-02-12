@@ -1,6 +1,6 @@
 import React from 'react';
-import TopBar from '../TopBar/TopBar';
-import Menu from '../Menu/Menu';
+import TopBar from '@/components/TopBar/TopBar';
+import Menu from '@/components/Menu/Menu';
 
 const App = () => {
   return (

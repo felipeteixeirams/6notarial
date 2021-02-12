@@ -1,5 +1,5 @@
 import React from 'react';
-import banner_1 from '../../_assents/img/banner/banner_1.png';
+import banner_1 from '@/_assents/img/banner/banner_1.png';
 
 const Carousel = () => {
     return (

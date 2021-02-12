@@ -1,5 +1,5 @@
-import '../../_assents/css/all.css';
-import '../../_assents/css/responsive.css';
+import '@/_assents/css/all.css';
+import '@/_assents/css/responsive.css';
 
 const TopBar = () =>{
   return (
