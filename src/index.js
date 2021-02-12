@@ -15,6 +15,7 @@ import About from '@/components/About/About';
 import SectionTitle from '@/components/Section/Title/Title';
 import Service from '@/components/Service/Service';
 import BlogCard from '@/components/Blog/BlogCard';
+import Footer from '@/components/Footer/Footer';
 
 /********************************************************
 * Propriedades dos componentes globais:
@@ -211,6 +212,7 @@ ReactDOM.render(
         ]
       }
     />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
