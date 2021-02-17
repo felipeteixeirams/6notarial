@@ -1,5 +1,9 @@
+import '@/index.css';
 import '@/_assents/css/responsive.css';
+import Map from '../Map/Map';
+
 var dataAtual = new Date();
+
 const Footer = () => {
    return (
         <footer className="section" id="footer">
@@ -72,7 +76,9 @@ const Footer = () => {
                 </div>
 
                 <div className="col-lg-4 col-sm-12 pr-4">
-                    <div className="footer-widget" id="map"></div>
+                    <div className="footer-widget" id="map">
+                        <Map />
+                    </div>
                 </div>
 
             </div>
@@ -81,7 +87,7 @@ const Footer = () => {
 
                <div className="col-lg-12">
                   <p className="footer-copy ">
-                     <br />Copyright &copy; {dataAtual.getFullYear()} 6&#186; Serviço Notarial. Todos os direitos reservados | hospedado por <span className="current-year"><a href="http://www.avianti.com.br/" target="_blank" rel="noreferrer">Avianti</a></span> | Consultoria &#38; Assessoria <span className="current-year"><a href="http://www.cidcastello.com.br/quem/" target="_blank" rel="noreferrer">Cid Castello</a></span>
+                     <br />&copy; {dataAtual.getFullYear()} 6&#186; Serviço Notarial, Todos os direitos reservados <i className="fas fa-circle ponto"></i> &nbps; &nbps; hospedado por <span className="current-year"><a href="http://www.avianti.com.br/" target="_blank" rel="noreferrer">Avianti</a></span> <i className="fas fa-circle ponto"></i> &nbps; &nbps; Consultoria &#38; Assessoria <span className="current-year"><a href="http://www.cidcastello.com.br/quem/" target="_blank" rel="noreferrer">Cid Castello</a></span>
                   </p>
                </div>
 
