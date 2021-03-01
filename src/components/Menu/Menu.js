@@ -33,23 +33,20 @@ const Menu = () => {
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#navbarCollapse" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Links úteis
-                            </a>
+                                </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarWelcome">
                                     <a className="dropdown-item " href="https://buscatestamento.org.br/" target="_blank" rel="noreferrer">
                                         Busca de Testamento (<abbr title="Colégio Notarial do Brasil">CNB</abbr>)
-                                </a>
+                                    </a>
                                     <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaAlegacao">
                                         Consultar Comunicação de Venda (<abbr title="Departamento Estadual de Trânsito do MS">DETRAN/MS</abbr>)
-                                </a>
-                                    <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaFirma">
-                                        Consultar Firma Aberta (<abbr title="Corregedoria Geral do MS">SIGEX</abbr>)
-                                </a>
+                                    </a>
                                     <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaSelo">
                                         Consultar Selo de Autenticidade (<abbr title="Corregedoria Geral do MS">SIGEX</abbr>)
-                                </a>
-                                    <a className="dropdown-item " href="https://www.e-notariado.org.br/" target="_blank" rel="noreferrer">
+                                    </a>
+                                    <a className="dropdown-item " href="https://www.e-notariado.org.br/" target="_blank" rel="noopener noreferrer">
                                         E-notariado (<abbr title="Colégio Notarial do Brasil">CNB</abbr>)
-                                </a>
+                                    </a>
                                 </div>
                             </li>
                             <li className="nav-item ">

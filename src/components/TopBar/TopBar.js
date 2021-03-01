@@ -49,8 +49,8 @@ const TopBar = () =>{
               <div className="top-info-block d-inline-flex">
                 <div className="icon-block"><i className="ti-time"></i></div>
                 <div className="info-block">
-                  <h5 className="font-weight-500">Seg-Sex 8:00-17:00 </h5>
-                  <p>Atendimento</p>
+                  <h5 className="font-weight-500">Seg-Sex 8:00-17:00</h5>
+                  <p>Atendimento na serventia</p>
                 </div>
               </div>
             </div>

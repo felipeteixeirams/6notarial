@@ -87,7 +87,7 @@ const Footer = () => {
 
                <div className="col-lg-12">
                   <p className="footer-copy ">
-                     <br />&copy; {dataAtual.getFullYear()} 6&#186; Serviço Notarial, Todos os direitos reservados <i className="fas fa-circle ponto"></i> &nbps; &nbps; hospedado por <span className="current-year"><a href="http://www.avianti.com.br/" target="_blank" rel="noreferrer">Avianti</a></span> <i className="fas fa-circle ponto"></i> &nbps; &nbps; Consultoria &#38; Assessoria <span className="current-year"><a href="http://www.cidcastello.com.br/quem/" target="_blank" rel="noreferrer">Cid Castello</a></span>
+                     <br />&copy; {dataAtual.getFullYear()} 6&#186; Serviço Notarial, Todos os direitos reservados &nbsp; <i className="fas fa-circle ponto"></i> &nbsp; &nbsp; hospedado por <span className="current-year"><a href="http://www.avianti.com.br/" target="_blank" rel="noreferrer">Avianti</a></span>
                   </p>
                </div>
 
