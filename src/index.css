@@ -306,17 +306,6 @@ img {
     color: #fff;
 }
 
-/*-------------------
-   LOGO
-----------------------*/
-
-#logo {
-    background-image: url(./_assents/img/logo/logo.png);
-    background-repeat: no-repeat;
-    height: 77px;
-    width: 224px;
-    margin-bottom: 10px
-}
 
 /*-------------------
    MENU
