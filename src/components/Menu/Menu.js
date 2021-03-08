@@ -1,6 +1,10 @@
 import '@/_assents/css/all.css';
 import '@/_assents/css/responsive.css';
 import '@/_assents/fonts/themify/themify-icons.css';
+import NavItem from './NavItem/NavItem';
+import DropMenuItem from './DropMenu/DropMenuItem/DropMenuItem';
+
+var cnb = <abbr title="Colégio Notarial do Brasil">CNB</abbr>;
 
 const Menu = () => {
     return (
@@ -15,29 +19,24 @@ const Menu = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <ul className="navbar-nav ">
-                            <li className="nav-item ">
-                                <a href="#sobre" className="nav-link js-scroll-trigger">
-                                    Sobre
-                            </a>
-                            </li>
-                            <li className="nav-item ">
-                                <a href="#services" className="nav-link js-scroll-trigger">
-                                    Serviços
-                            </a>
-                            </li>
-                            <li className="nav-item ">
-                                <a href="#blog" className="nav-link js-scroll-trigger">
-                                    Informativos
-                            </a>
-                            </li>
+                            <NavItem 
+                                name="Sobre"
+                                href="#sobre"
+                            />
+                            <NavItem 
+                                name="Serviços"
+                                href="#services"
+                            />
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#navbarCollapse" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Links úteis
                                 </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarWelcome">
-                                    <a className="dropdown-item " href="https://buscatestamento.org.br/" target="_blank" rel="noreferrer">
-                                        Busca de Testamento (<abbr title="Colégio Notarial do Brasil">CNB</abbr>)
-                                    </a>
+                                    <DropMenuItem 
+                                        href="https://buscatestamento.org.br/"
+                                        target="true"
+                                        content={`Busca de Testamento (${cnb})`}
+                                    />
                                     <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaAlegacao">
                                         Consultar Comunicação de Venda (<abbr title="Departamento Estadual de Trânsito do MS">DETRAN/MS</abbr>)
                                     </a>
@@ -49,11 +48,11 @@ const Menu = () => {
                                     </a>
                                 </div>
                             </li>
-                            <li className="nav-item ">
-                                <a className="nav-link js-scroll-trigger" href="https://www.tjms.jus.br/legislacao/visualizar.php?lei=21119" target="_blank" rel="noreferrer">
-                                    Preços&nbsp;<span className="ti-download"></span>
-                                </a>
-                            </li>
+                            <NavItem 
+                                name="Preços"
+                                href="https://www.tjms.jus.br/legislacao/visualizar.php?lei=21119"
+                                target="true"
+                            />
                         </ul>
 
                         <ul className="ml-lg-auto list-unstyled m-0">

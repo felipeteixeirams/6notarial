@@ -47,11 +47,6 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a className="js-scroll-trigger" href="#blog">
-                                    Informativos
-                                </a>
-                            </li>
-                            <li>
                                 <a className="js-scroll-trigger" href="https://www.tjms.jus.br/legislacao/visualizar.php?lei=21119" target="_black" rel="noreferrer">
                                     Tabela de Preços
                                 </a>
