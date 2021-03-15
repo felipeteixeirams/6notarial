@@ -4,8 +4,6 @@ import '@/_assents/fonts/themify/themify-icons.css';
 import NavItem from './NavItem/NavItem';
 import DropMenuItem from './DropMenu/DropMenuItem/DropMenuItem';
 
-var cnb = <abbr title="Colégio Notarial do Brasil">CNB</abbr>;
-
 const Menu = () => {
     return (
         <div className="main-navigation" id="mainmenu-area">
@@ -33,9 +31,9 @@ const Menu = () => {
                                 </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarWelcome">
                                     <DropMenuItem 
-                                        href="https://buscatestamento.org.br/"
+                                        href = "https://buscatestamento.org.br/"
                                         target="true"
-                                        content={`Busca de Testamento (${cnb})`}
+                                        content= {<div>Busca de Testamento (<abbr title="Colégio Notarial do Brasil">CNB</abbr>)</div>}
                                     />
                                     <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaAlegacao">
                                         Consultar Comunicação de Venda (<abbr title="Departamento Estadual de Trânsito do MS">DETRAN/MS</abbr>)

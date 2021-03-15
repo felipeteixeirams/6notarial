@@ -1,13 +1,13 @@
 import React from 'react';
 import banner_1 from '@/_assents/img/banner/banner_1.png';
 
-const Carousel = () => {
+const Carousel = (props) => {
     return (
         <div id="carouselMainBanner" className="carousel slide carousel-fade" data-ride="carousel">
             <ol className="carousel-indicators">
                 <li data-target="#carouselMainBanner" data-slide-to="0" className="active"></li>
             </ol>
-            <div className="carousel-inner">
+            <div className="carousel-inner" id="innerCarousel">
                 <div className="carousel-item active">
                     <img className="d-block w-100" src={banner_1 + '?auto=yes&bg=777&fg=555&text=Primeiro Slide'} alt="Primeiro Slide" />
                 </div>

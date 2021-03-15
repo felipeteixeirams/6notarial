@@ -12,6 +12,7 @@ import About from '@/components/About/About';
 import SectionTitle from '@/components/Section/Title/Title';
 import Service from '@/components/Service/Service';
 import Footer from '@/components/Footer/Footer';
+import Modal from '@/components/Modal/Modal';
 
 /********************************************************
 * Propriedades dos componentes globais:
@@ -23,17 +24,7 @@ import Footer from '@/components/Footer/Footer';
 ******/
 
 var sections = {
-  bgGrey: "bg-grey",
-  textWhite: "text-white",
-  about: {
-    id: "sobre"
-  },
   services: {
-    id: "services",
-    head: {
-      title: "Serviços",
-      description: "Conheça mais sobre os principais serviços oferecidos por nós.",
-    },
     autenticacao: {
       id: "Autenticacao",
       icon: "ti-stamp",
@@ -83,20 +74,20 @@ ReactDOM.render(
     <Menu />
     <Carousel />
     <Section
-      bgColor = {sections.bgGrey}
-      id = {sections.about.id}
+      bgColor = "bg-grey"
+      id = "sobre"
       content = {
         <About />
       }
     />
     <Section 
       bgColor = {" "}
-      id = {sections.services.id}
+      id = "services"
       head = {
         <SectionTitle 
-          title = {sections.services.head.title}
-          description = {sections.services.head.description}
-          color = {sections.textWhite}
+          title = "Serviços"
+          description = "Conheça mais sobre os principais serviços oferecidos por nós."
+          color = "text-white"
         />
       }
       content = {
@@ -145,6 +136,16 @@ ReactDOM.render(
       }
     />
     <Footer />
+    <Modal 
+      modalId = "modalConsultaSelo"
+      title = {<div><h2 className="modal-title">Consulta de Selo Eletrônico</h2><button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>}
+      content = {<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" frameborder="0" height="400px" width="100%" title="consulta selo"></iframe>}
+    />
+    <Modal
+      modalId = "modalConsultaAlegacao"
+      title = {<div><h2 className="modal-title">Consulta de Comunicação de Venda Registrada (DETRAN/MS)</h2><button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>}
+      content = {<iframe frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp" width="100%" height="800" title="consulta alegação de venda"></iframe>}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
