@@ -23,50 +23,11 @@ import Modal from '@/components/Modal/Modal';
 * 
 ******/
 
-var sections = {
-  services: {
-    autenticacao: {
-      id: "Autenticacao",
-      icon: "ti-stamp",
-      content: "Autenticação de cópia"
-    },
-    reconhecimento: {
-      id: "Reconhecimento",
-      icon: "ti-id-badge",
-      content: "Abertura e Reconhecimento de Firma"
-    },
-    apostila: {
-      id: "Apostila",
-      icon: "ti-world",
-      content: "Convenção da Apostila da Haia"
-    },
-    escritura: {
-      id: "Escritura",
-      icon: "ti-home",
-      content: "Escrituras"
-    },
-    procuracao: {
-      id: "Procuracao",
-      icon: "ti-id-badge",
-      content: "Procuração, Substabelecimento e Revogação"
-    },
-    testamento: {
-      id: "Testamento",
-      icon: "ti-pencil-alt",
-      content: "Testamento"
-    },
-    alegacao: {
-      id: "Alegacao",
-      icon: "ti-car",
-      content: "Alegação de Venda de Veículo (Detran/MS)"
-    },
-    certidao: {
-      id: "Certidao",
-      icon: "ti-files",
-      content: "Certidões"
-    }
+fetch('./data.json',{
+  headers: {
+    Accept: "application/json"
   }
-}
+}).then(res => res.json()).then(res => console.log(res))
 
 ReactDOM.render(
   <React.StrictMode>
@@ -93,44 +54,44 @@ ReactDOM.render(
       content = {
         [
           <Service 
-            modalId = {sections.services.autenticacao.id}
-            icon = {sections.services.autenticacao.icon}
-            content = {sections.services.autenticacao.content}
+            modalId = "Autenticacao"
+            icon = "ti-stamp"
+            content = "Autenticação de cópia"
           />,
           <Service 
-            modalId = {sections.services.reconhecimento.id}
-            icon = {sections.services.reconhecimento.icon}
-            content = {sections.services.reconhecimento.content}
+            modalId = "Reconhecimento"
+            icon = "ti-id-badge"
+            content = "Abertura e Reconhecimento de Firma"
           />,
           <Service 
-            modalId = {sections.services.apostila.id}
-            icon = {sections.services.apostila.icon}
-            content = {sections.services.apostila.content}
+            modalId = "Apostila"
+            icon = "ti-world"
+            content = "Convenção da Apostila da Haia"
           />,
           <Service 
-            modalId = {sections.services.escritura.id}
-            icon = {sections.services.escritura.icon}
-            content = {sections.services.escritura.content}
+            modalId = "Escritura"
+            icon = "ti-home"
+            content = "Escrituras"
           />,
           <Service 
-            modalId = {sections.services.procuracao.id}
-            icon = {sections.services.procuracao.icon}
-            content = {sections.services.procuracao.content}
+            modalId = "Procuracao"
+            icon = "ti-id-badge"
+            content = "Procuração, Substabelecimento e Revogação"
           />,
           <Service 
-            modalId = {sections.services.testamento.id}
-            icon = {sections.services.testamento.icon}
-            content = {sections.services.testamento.content}
+            modalId = "Testamento"
+            icon = "ti-pencil-alt"
+            content = "Testamento"
           />,
           <Service 
-            modalId = {sections.services.alegacao.id}
-            icon = {sections.services.alegacao.icon}
-            content = {sections.services.alegacao.content}
+            modalId = "Alegacao"
+            icon = "ti-car"
+            content = "Alegação de Venda de Veículo (Detran/MS)"
           />,
           <Service 
-            modalId = {sections.services.certidao.id}
-            icon = {sections.services.certidao.icon}
-            content = {sections.services.certidao.content}
+            modalId = "Certidao"
+            icon = "ti-files"
+            content = "Certidões"
           />
         ]
       }
@@ -139,18 +100,16 @@ ReactDOM.render(
     <Modal 
       modalId = "modalConsultaSelo"
       title = {<div><h2 className="modal-title">Consulta de Selo Eletrônico</h2><button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>}
-      content = {<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" frameborder="0" height="400px" width="100%" title="consulta selo"></iframe>}
+      content = {<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" frameBorder="0" height="400px" width="100%" title="consulta selo"></iframe>}
     />
     <Modal
       modalId = "modalConsultaAlegacao"
       title = {<div><h2 className="modal-title">Consulta de Comunicação de Venda Registrada (DETRAN/MS)</h2><button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>}
-      content = {<iframe frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp" width="100%" height="800" title="consulta alegação de venda"></iframe>}
+      content = {<iframe frameBorder="0" hspace="0" vspace="0" marginHeight="0" marginWidth="0" src="https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp" width="100%" height="800" title="consulta alegação de venda"></iframe>}
     />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-console.log("Olá amigo!👨‍💻");
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
