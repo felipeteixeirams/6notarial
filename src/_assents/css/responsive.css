@@ -17,6 +17,10 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+    .web-service-block{
+        padding: 10px 25px;
+    }
+
     .carousel-item {
         margin-left: auto;
         margin-right: auto;
@@ -152,6 +156,10 @@
 -----------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    .web-service-block{
+        padding: 10px 25px;
+    }
 
     .carousel-item {
         margin-left: auto;
@@ -301,6 +309,10 @@
 /* Extra Small Devices, Phones */
 
 @media (min-width: 478px) and (max-width: 640px) {
+
+    .web-service-block{
+        padding: 10px 25px;
+    }
 
     .w-100 {
         width: auto;
@@ -496,6 +508,10 @@
 
 /* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px) {
+
+    .web-service-block{
+        padding: 10px 25px;
+    }
     
     .carousel-item {
         margin-left: auto;

@@ -1,7 +1,7 @@
 import '@/_assents/css/responsive.css';
 import '@/_assents/fonts/themify/themify-icons.css';
 
-const Service = (props) => {
+const Card = (props) => {
     return (
         <div className="col-lg-3 col-sm-6 col-md-6 test-author-thumb">
             <a href="_" data-toggle="modal" data-target={`#modal${props.modalId}`}>
@@ -14,4 +14,4 @@ const Service = (props) => {
     );
 }
 
-export default Service;
+export default Card;

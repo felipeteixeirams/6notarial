@@ -10,7 +10,7 @@ import Carousel from '@/components/Carousel/Carousel';
 import Section from '@/components/Section/Section';
 import About from '@/components/About/About';
 import SectionTitle from '@/components/Section/Title/Title';
-import Service from '@/components/Service/Service';
+import Card from '@/components/Card/Card';
 import Footer from '@/components/Footer/Footer';
 import Modal from '@/components/Modal/Modal';
 
@@ -23,17 +23,20 @@ import Modal from '@/components/Modal/Modal';
 * 
 ******/
 
-fetch('./data.json',{
-  headers: {
-    Accept: "application/json"
-  }
-}).then(res => res.json()).then(res => console.log(res))
-
 ReactDOM.render(
   <React.StrictMode>
     <TopBar />
+
     <Menu />
+
     <Carousel />
+
+
+      {/*** 
+       * Seções de conteúdo
+      */
+      }
+
     <Section
       bgColor = "bg-grey"
       id = "sobre"
@@ -41,6 +44,7 @@ ReactDOM.render(
         <About />
       }
     />
+
     <Section 
       bgColor = {" "}
       id = "services"
@@ -53,42 +57,42 @@ ReactDOM.render(
       }
       content = {
         [
-          <Service 
+          <Card 
             modalId = "Autenticacao"
             icon = "ti-stamp"
             content = "Autenticação de cópia"
           />,
-          <Service 
+          <Card 
             modalId = "Reconhecimento"
             icon = "ti-id-badge"
             content = "Abertura e Reconhecimento de Firma"
           />,
-          <Service 
+          <Card 
             modalId = "Apostila"
             icon = "ti-world"
             content = "Convenção da Apostila da Haia"
           />,
-          <Service 
+          <Card 
             modalId = "Escritura"
             icon = "ti-home"
             content = "Escrituras"
           />,
-          <Service 
+          <Card 
             modalId = "Procuracao"
             icon = "ti-id-badge"
             content = "Procuração, Substabelecimento e Revogação"
           />,
-          <Service 
+          <Card 
             modalId = "Testamento"
             icon = "ti-pencil-alt"
             content = "Testamento"
           />,
-          <Service 
+          <Card 
             modalId = "Alegacao"
             icon = "ti-car"
             content = "Alegação de Venda de Veículo (Detran/MS)"
           />,
-          <Service 
+          <Card 
             modalId = "Certidao"
             icon = "ti-files"
             content = "Certidões"
@@ -96,17 +100,30 @@ ReactDOM.render(
         ]
       }
     />
+
+
     <Footer />
+
+      {/*** 
+       * Iframes
+      */
+      }
     <Modal 
       modalId = "modalConsultaSelo"
       title = {<div><h2 className="modal-title">Consulta de Selo Eletrônico</h2><button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>}
       content = {<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" frameBorder="0" height="400px" width="100%" title="consulta selo"></iframe>}
     />
+
     <Modal
       modalId = "modalConsultaAlegacao"
       title = {<div><h2 className="modal-title">Consulta de Comunicação de Venda Registrada (DETRAN/MS)</h2><button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>}
       content = {<iframe frameBorder="0" hspace="0" vspace="0" marginHeight="0" marginWidth="0" src="https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp" width="100%" height="800" title="consulta alegação de venda"></iframe>}
     />
+    {/*** 
+    * Modais conteudo
+    */
+    }
+
   </React.StrictMode>,
   document.getElementById('root')
 );
