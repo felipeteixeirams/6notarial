@@ -1,4 +1,5 @@
 import predio from "@/_assents/img/banner/predio-768x1151.jpg";
+import '@/_assents/css/responsive.css';
 
 const About = () => {
     return (

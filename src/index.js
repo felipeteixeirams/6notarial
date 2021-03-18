@@ -14,15 +14,6 @@ import Card from '@/components/Card/Card';
 import Footer from '@/components/Footer/Footer';
 import Modal from '@/components/Modal/Modal';
 
-/********************************************************
-* Propriedades dos componentes globais:
-*
-* SectionTitle => color | title | descripion
-* Sections  => id | head | content
-* BlogCard => imageCard | dateCard | titleCard | contentCard | modalId
-* 
-******/
-
 ReactDOM.render(
   <React.StrictMode>
     <TopBar />
@@ -30,12 +21,6 @@ ReactDOM.render(
     <Menu />
 
     <Carousel />
-
-
-      {/*** 
-       * Seções de conteúdo
-      */
-      }
 
     <Section
       bgColor = "bg-grey"
@@ -101,13 +86,8 @@ ReactDOM.render(
       }
     />
 
-
     <Footer />
 
-      {/*** 
-       * Iframes
-      */
-      }
     <Modal 
       modalId = "modalConsultaSelo"
       title = {<div><h2 className="modal-title">Consulta de Selo Eletrônico</h2><button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>}
