@@ -13,10 +13,20 @@ import SectionTitle from '@/components/Section/Title/Title';
 import Card from '@/components/Card/Card';
 import Footer from '@/components/Footer/Footer';
 import Modal from '@/components/Modal/Modal';
+import Logo from '@/components/Logo/Logo';
+import IconBlock from '@/components/TopBar/IconBlock/IconBlock';
+import InfoBlock from '@/components/TopBar/InfoBlock/InfoBlock';
+import Clock from '@/components/Icons/Clock/Clock';
+import Mail from '@/components/Icons/Mail/Mail';
+import Mobile from '@/components/Icons/Mobile/Mobile';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TopBar />
+    <TopBar 
+      logo = {< Logo />}
+      information = {<div><div className="top-info-block d-inline-flex">{<IconBlock Icon = {< Mobile />} />}{<InfoBlock Title = {"(67) 3382-2590 (67)99919-6848"} Description = {"Contate-nos"} />}</div><div className="top-info-block d-inline-flex">{<IconBlock Icon = {< Mail />} />}{<InfoBlock Title = {"atendimento@6notarial.com.br"} Description = {"Envie um e-mail"} />}</div>
+              <div className="top-info-block d-inline-flex">{<IconBlock Icon = {< Clock/>}/>}{<InfoBlock Title = {"Seg-Sex 8:00-17:00"} Description = {"Funcionamento"} />}</div></div>}
+    />
 
     <Menu />
 
