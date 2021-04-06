@@ -32,7 +32,8 @@
     .carousel-item {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10%
+        margin-top: 10%;
+        height: 90vh;
     }
     
     i.icons {
@@ -184,9 +185,10 @@
     .carousel-item {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10%
+        margin-top: 10%;
+        height: 90vh;
     }
-    
+
     #top-bar {
         display: none
     }
@@ -341,16 +343,12 @@
     .web-service-block{
         padding: 10px 25px;
     }
-
-    .w-100 {
-        width: auto;
-        height: 90vh;
-    }
-
+        
     .carousel-item {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10%
+        margin-top: 10%;
+        height: 80vh;
     }
     
     #top-bar {

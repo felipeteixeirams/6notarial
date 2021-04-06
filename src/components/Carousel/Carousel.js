@@ -1,5 +1,5 @@
 import React from 'react';
-import banner_1 from '@/_assents/img/banner/banner_1.png';
+import banner_1 from '@/_assents/img/banner/banner_1-alterado.png';
 
 const Carousel = (props) => {
     return (
@@ -9,7 +9,7 @@ const Carousel = (props) => {
             </ol>
             <div className="carousel-inner" id="innerCarousel">
                 <div className="carousel-item active">
-                    <img className="d-block w-100" src={banner_1 + '?auto=yes&bg=777&fg=555&text=Primeiro Slide'} alt="Primeiro Slide" />
+                    <img className="d-block h-100" src={banner_1 + '?auto=yes&bg=777&fg=555&text=Primeiro Slide'} alt="Primeiro Slide" />
                 </div>
             </div>
             <a className="carousel-control-prev" href="#carouselMainBanner" role="button" data-slide="prev">
