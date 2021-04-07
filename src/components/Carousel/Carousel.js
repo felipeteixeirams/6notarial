@@ -1,5 +1,8 @@
 import React from 'react';
-import banner_1 from '@/_assents/img/banner/banner_1-alterado.png';
+import banner_1 from '@/_assents/img/banner/banner_1.jpg';
+import './Carousel.css';
+import '@/_assents/css/responsive.css';
+
 
 const Carousel = (props) => {
     return (
@@ -9,7 +12,10 @@ const Carousel = (props) => {
             </ol>
             <div className="carousel-inner" id="innerCarousel">
                 <div className="carousel-item active">
-                    <img className="d-block h-100" src={banner_1 + '?auto=yes&bg=777&fg=555&text=Primeiro Slide'} alt="Primeiro Slide" />
+                    <figure>
+                        <img className="d-block h-100" src={banner_1} alt="Primeiro Slide" />
+                        <figcaption><h1>COMO E ONDE OBTER UM CERTIFICADO NOTARIAL?</h1> <p>Dirija-se a um Tabelionato de Notas mais próximo e solicite a expedição do seu certificado notarial. É gratuito!</p></figcaption>
+                    </figure>
                 </div>
             </div>
             <a className="carousel-control-prev" href="#carouselMainBanner" role="button" data-slide="prev">

@@ -1,6 +1,7 @@
 import '@/_assents/css/all.css';
 import '@/_assents/css/responsive.css';
 import '@/_assents/fonts/themify/themify-icons.css';
+import './Menu.css';
 import NavItem from './NavItem/NavItem';
 import DropMenuItem from './DropMenu/DropMenuItem/DropMenuItem';
 

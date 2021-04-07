@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue');
+
+.carousel-item figure {
+   height: 100%;
+}
+
+.carousel-item figcaption {
+   color: white;
+   display: inline-block;
+   position:absolute;
+}
+
+.carousel-item figcaption > h1 {
+   font-family: 'Bebas Neue';
+   color: white;
+   line-height: 1.2em;
+}
+
+.carousel-item figcaption p {
+   line-height: 1.2em;
+}
