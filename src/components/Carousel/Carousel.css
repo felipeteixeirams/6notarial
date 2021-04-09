@@ -5,9 +5,7 @@
 }
 
 .carousel-item figcaption {
-   color: white;
-   display: inline-block;
-   position:absolute;
+   display: none;
 }
 
 .carousel-item figcaption > h1 {
