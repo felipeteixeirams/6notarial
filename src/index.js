@@ -4,9 +4,11 @@ import reportWebVitals from './reportWebVitals';
 /* Imports Extras */
 import './index.css';
 import App from '@/components/App/App';
+import LoadingScreen from './components/LoadingScreen/LoadingScreen';
 
 ReactDOM.render(
   <React.StrictMode>
+    <LoadingScreen />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

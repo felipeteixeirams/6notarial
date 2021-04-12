@@ -1,3 +1,4 @@
+import React from 'react';
 import '@/index.css';
 import '@/_assents/css/responsive.css';
 import Map from '../Map/Map';
@@ -7,8 +8,10 @@ import Google from '@/components/Icons/Google/Google';
 
 var dataAtual = new Date();
 
+
 const Footer = () => {
-   return (
+    
+     return (
         <footer className="section pl-3" id="footer">
             <div className="overlay footer-overlay">
             </div>
