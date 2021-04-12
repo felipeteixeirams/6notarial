@@ -9,7 +9,7 @@ var dataAtual = new Date();
 
 const Footer = () => {
    return (
-        <footer className="section" id="footer">
+        <footer className="section pl-3" id="footer">
             <div className="overlay footer-overlay">
             </div>
             <div className="container">

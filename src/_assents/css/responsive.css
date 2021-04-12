@@ -48,7 +48,7 @@
      }
 
      .carousel-item {
-        height: 95vh;
+        height: 80vh;
     }
        
 }
@@ -60,6 +60,10 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     
+    .carousel-item {
+        max-height: 70vh;
+    }
+
     .carousel-item figcaption {
         width: 78%;
         top: 10%;
@@ -214,6 +218,10 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     
+    .carousel-item {
+        max-height: 64vh;
+    }
+
     .carousel-item figcaption {
         width: 78%;
         top: 10%;
@@ -388,6 +396,10 @@
 /* Extra Small Devices, Phones */
 
 @media (min-width: 478px) and (max-width: 640px) {
+
+    .carousel-item {
+        max-height: 55vh;
+    }
 
     .carousel-item figcaption {
         width: 78%;
@@ -599,6 +611,10 @@
 
 /* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px) {
+
+    .carousel-item {
+        max-height: 47vh;
+    }
 
     .carousel-item figcaption {
         width: 78%;
