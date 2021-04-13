@@ -1,12 +1,13 @@
 import predio from "@/_assents/img/banner/predio-768x1151.jpg";
+import '@/_assents/css/responsive.css';
 
 const About = () => {
     return (
         <div>
             <div className="row justy-content-center">
                 <div className="col-lg-3 col-sm-6 col-md-6">
-                    <div className="text-center feature-block mb-3">
-                        <div className="img-icon-block mb-4">
+                    <div className="text-center feature-block mb-6">
+                        <div className="img-icon-block mb-2">
                             <i className="ti-car"></i>
                         </div>
                         <h4 className="mb-2">Estacionamento próprio</h4>
@@ -51,7 +52,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <article className="col-lg-8 pl-4 mb-1 service-content">
+                <article className="col-lg-8 pl-5 pr-4 mb-1 service-content">
                     <header>
                         <h1>6º Serviço Notarial e antiga 4ª. Circunscrição Imobiliária</h1>
                     </header>

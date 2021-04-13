@@ -1,12 +1,55 @@
 /*----------------------------------
+    BIG LAYOUT: 1200px END MORE
+-----------------------------------*/
+@media (min-width: 1201px) {
+
+    .carousel-item figcaption {
+        width: 50%;
+        top: 13%;
+        left: 12%;
+     }
+     
+     .carousel-item figcaption > h1 {
+        font-size: 4em;
+     }
+     
+     .carousel-item figcaption p {
+        font-size: 2rem;
+     }
+
+     .carousel-item {
+        height: 100vh;
+    }
+} 
+
+
+/*----------------------------------
     MEDIUM LAYOUT: 1280px
 -----------------------------------*/
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
     .service-content {
         padding-bottom: 30px;
     }
 
+    .carousel-item figcaption {
+        width: 50em;
+        top: 13%;
+        left: 12%;
+     }
+     
+     .carousel-item figcaption > h1 {
+        font-size: 7.5em;
+     }
+     
+     .carousel-item figcaption p {
+        font-size: 2rem;
+     }
+
+     .carousel-item {
+        height: 80vh;
+    }
        
 }
 
@@ -16,11 +59,41 @@
 ------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
+    
+    .carousel-item {
+        max-height: 70vh;
+    }
+
+    .carousel-item figcaption {
+        width: 78%;
+        top: 10%;
+        left: 12%;
+     }
+     
+     .carousel-item figcaption > h1 {
+        font-size: 5.7em;
+     }
+     
+     .carousel-item figcaption p {
+        font-size: 2rem;
+     }
+
+    .img-fluid {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .web-service-block{
+        padding: 10px 25px;
+    }
 
     .carousel-item {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10%
+        margin-top: 10%;
+        height: 95vh;
     }
     
     i.icons {
@@ -30,10 +103,6 @@
     .main-banner h1.display-4 {
         line-height: 62px;
         font-size: 30px;
-    }
-
-    .main-nav .navbar-brand h4 {
-        color: #fff;
     }
 
     .top-info-block {
@@ -49,10 +118,6 @@
 
     .main-navigation {
         margin-top: -30px;
-    }
-
-    .main-nav .navbar-brand h4 {
-        color: #fff;
     }
 
     .section-title {
@@ -152,13 +217,47 @@
 -----------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    .carousel-item {
+        max-height: 64vh;
+    }
+
+    .carousel-item figcaption {
+        width: 78%;
+        top: 10%;
+        left: 12%;
+     }
+     
+     .carousel-item figcaption > h1 {
+        font-size: 4.3em;
+     }
+     
+     .carousel-item figcaption p {
+        font-size: 1.8rem;
+     }
+    
+    .img-fluid {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .service-img {
+        max-height: 50vh;
+    }
+    
+    .web-service-block{
+        padding: 10px 25px;
+    }
 
     .carousel-item {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10%
+        margin-top: 10%;
+        height: 100vh;
     }
-    
+
     #top-bar {
         display: none
     }
@@ -184,10 +283,6 @@
 
     .main-navigation {
         margin-top: 20px;
-    }
-
-    .main-nav .navbar-brand h4 {
-        color: #fff;
     }
 
     .section-title {
@@ -302,15 +397,39 @@
 
 @media (min-width: 478px) and (max-width: 640px) {
 
-    .w-100 {
-        width: auto;
-        height: 90vh;
+    .carousel-item {
+        max-height: 55vh;
     }
 
+    .carousel-item figcaption {
+        width: 78%;
+        top: 10%;
+        left: 12%;
+     }
+     
+     .carousel-item figcaption > h1 {
+        font-size: 4.3em;
+     }
+     
+     .carousel-item figcaption p {
+        font-size: 1.8rem;
+     }
+    
+    .img-fluid {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .web-service-block{
+        padding: 10px 25px;
+    }
+        
     .carousel-item {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10%
+        margin-top: 10%;
     }
     
     #top-bar {
@@ -343,10 +462,6 @@
 
     .main-navigation {
         margin-top: 20px;
-    }
-
-    .main-nav .navbar-brand h4 {
-        color: #fff;
     }
 
     .section-title {
@@ -496,11 +611,46 @@
 
 /* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px) {
+
+    .carousel-item {
+        max-height: 47vh;
+    }
+
+    .carousel-item figcaption {
+        width: 78%;
+        top: 10%;
+        left: 12%;
+     }
+     
+     .carousel-item figcaption > h1 {
+        font-size: 2.8em;
+     }
+     
+     .carousel-item figcaption p {
+        font-size: 1.4rem;
+     }
+
+
+    .img-fluid {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .service-img {
+        max-height: 50vh;
+    }
+
+    .web-service-block{
+        padding: 10px 25px;
+    }
     
     .carousel-item {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10%
+        margin-top: 10%;
+        height: 80vh;
     }
     
     #top-bar {

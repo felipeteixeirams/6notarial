@@ -1,0 +1,33 @@
+.main-nav {
+   margin-bottom: -45px;
+   z-index: 999;
+}
+
+.navbar {
+   position: relative;
+   padding: 1rem 1rem;
+   border-radius: 5px;
+}
+
+.main-nav .navbar-brand h4 {
+   color: #fff;
+}
+
+.navbar:before {
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   content: "";
+   transition: opacity .15s linear;
+   opacity: 0;
+   border-bottom: 1px solid rgba(0, 0, 0, .1);
+   background-color: #fff;
+
+}
+
+.navbar-dark {
+   color: #fff;
+}
