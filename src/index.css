@@ -616,7 +616,7 @@ h5.subtitle {
 .service-img {
     margin-bottom: -200px;
     border: 10px solid#fff;
-    z-index: 9999;
+    z-index: 100;
 }
 
 .service-content {

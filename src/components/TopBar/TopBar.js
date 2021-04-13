@@ -3,6 +3,7 @@ import '@/_assents/css/responsive.css';
 import Facebook from '@/components/Icons/Facebook/Facebook';
 import Instagram from '@/components/Icons/Instagram/Instagram';
 import Mail from '@/components/Icons/Mail/Mail';
+import Logo from '@/components/Logo/Logo';
 
 const TopBar = (props) =>{
   return (
@@ -35,7 +36,7 @@ const TopBar = (props) =>{
         <div className="container">
           <div className="row">
             <div className="col-lg-2">
-              {props.logo}
+              <Logo />
             </div>
             <div className="col-lg-9 justify-content-end ml-lg-auto d-flex col-12">
               {props.information}
