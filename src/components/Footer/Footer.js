@@ -21,11 +21,11 @@ const Footer = () => {
                     <div className="footer-widget">
                         <h3 className="footer-brand text-white">6º Serviço Notarial</h3>
                         <ul className="footer-links-2">
-                            <li><i className="fa fa-map-marker"></i>&nbsp;&nbsp;15 de Novembro, 428, Centro, Campo Grande/MS
+                            <li><i className="fa fa-map-marker pr-2"></i>15 de Novembro, 428, Centro, Campo Grande/MS
                             </li>
-                            <li><i className="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:atendimento@6notarial.com.br">atendimento@6notarial.com.br</a></li>
-                            <li><i className="fa fa-phone"></i>&nbsp;&nbsp;<a href="tel:6733822590">(67)3382-2590</a> / <a href="tel:67999196848">(67)99919-6848</a></li>
-                            <li><i className="fa fa-clock">&nbsp;&nbsp;</i>Seg-Sex <time>8:00</time>-<time>17:00</time></li>
+                            <li><i className="fa fa-envelope pr-2"></i><a href="mailto:atendimento@6notarial.com.br">atendimento@6notarial.com.br</a></li>
+                            <li><i className="fa fa-phone pr-2"></i><a href="tel:6733822590">(67)3382-2590</a> / <a href="tel:67999196848">(67)99919-6848</a></li>
+                            <li><i className="fa fa-clock pr-2"></i>Seg-Sex <time>8:00</time>-<time>17:00</time></li>
                         </ul>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ const Footer = () => {
 
                 <div className="col-lg-4 col-sm-12 pr-4">
                     <div className="footer-widget">
-                        <Map url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.994506769025!2d-54.6160401!3d-20.4654188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e618a1483461%3A0xd41437c5f22b86ee!2zNsKwIFNlcnZpw6dvIE5vdGFyaWFs!5e0!3m2!1spt-BR!2sbr!4v1563823748125!5m2!1spt-BR!2sbr"/>
+                        <Map />
                     </div>
                 </div>
 

@@ -1,0 +1,8 @@
+.mnh-80 {
+    min-height: 40em;
+}
+
+div.modal-body iframe {
+    width: 100%;
+    min-height: 60vmin;
+}

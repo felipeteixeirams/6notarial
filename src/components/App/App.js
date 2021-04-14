@@ -15,16 +15,19 @@ import InfoBlock from '@/components/TopBar/InfoBlock/InfoBlock';
 import Clock from '@/components/Icons/Clock/Clock';
 import Mail from '@/components/Icons/Mail/Mail';
 import Mobile from '@/components/Icons/Mobile/Mobile';
-//import LoadingScreen from '@/components/LoadingScreen/LoadingScreen';
-
 
 
 const App = () => {
   const el = document.getElementById('load');
   
   useEffect(() => {
-    setTimeout(() => el.style = 'display: none',6000)
+    setTimeout(() => el.style = 'display: none',4500)
+    fetch('@/_assents/data/services.json', { method: 'GET' })
+    .then(response => response.json())
+    .then(json => this.setState({ data: json }))
   })
+
+  //lendo Json https://pt.stackoverflow.com/questions/369566/como-fa%C3%A7o-para-consumir-esse-json-no-react
 
   return (
       <StrictMode>
@@ -97,15 +100,55 @@ const App = () => {
         <Footer />
       
         <Modal 
-          modalId = "modalConsultaSelo"
-          title = {<div><h2 className="modal-title">Consulta de Selo Eletrônico</h2><button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>}
+          modalId = "ConsultaSelo"
+          title = {"Consulta de Selo Eletrônico"}
           content = {<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" frameBorder="0" height="400px" width="100%" title="consulta selo"></iframe>}
         />
       
         <Modal
-          modalId = "modalConsultaAlegacao"
-          title = {<div><h2 className="modal-title">Consulta de Comunicação de Venda Registrada (DETRAN/MS)</h2><button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>}
-          content = {<iframe frameBorder="0" hspace="0" vspace="0" marginHeight="0" marginWidth="0" src="https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp" width="100%" height="800" title="consulta alegação de venda"></iframe>}
+          modalId = "ConsultaAlegacao"
+          content = {<iframe frameBorder="0" hspace="0" vspace="0" marginHeight="0" marginWidth="0" src="https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp" title="consulta alegação de venda"></iframe>}
+        />
+
+        <Modal 
+          modalId = "Autenticacao"
+          title = "Autenticação"
+          content = "Autenticação"
+        />
+        <Modal 
+          modalId = "Reconhecimento"
+          title = "Reconhecimento"
+          content = "Reconhecimento"
+        />
+        <Modal 
+          modalId = "Apostila"
+          title = "Apostila"
+          content = "Apostila"
+        />
+        <Modal 
+          modalId = "Escritura"
+          title = "Escritura"
+          content = "Escritura"
+        />
+        <Modal 
+          modalId = "Procuracao"
+          title = "Procuracao"
+          content = "Procuracao"
+        />
+        <Modal 
+          modalId = "Testamento"
+          title = "Testamento"
+          content = "Testamento"
+        />
+        <Modal 
+          modalId = "Alegacao"
+          title = "Alegacao"
+          content = "Alegacao"
+        />
+        <Modal 
+          modalId = "Certidao"
+          title = "Certidao"
+          content = "Certidao"
         />
       </StrictMode>
   );
