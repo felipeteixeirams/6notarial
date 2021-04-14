@@ -16,19 +16,16 @@ import Clock from '@/components/Icons/Clock/Clock';
 import Mail from '@/components/Icons/Mail/Mail';
 import Mobile from '@/components/Icons/Mobile/Mobile';
 
-
 const App = () => {
   const el = document.getElementById('load');
-  
   useEffect(() => {
     setTimeout(() => el.style = 'display: none',4500)
-    fetch('@/_assents/data/services.json', { method: 'GET' })
+    fetch('@/_assents/data/services.json')
     .then(response => response.json())
-    .then(json => this.setState({ data: json }))
+    .then(json => json)
   })
-
   //lendo Json https://pt.stackoverflow.com/questions/369566/como-fa%C3%A7o-para-consumir-esse-json-no-react
-
+  //verificar esse aqui >>> https://medium.com/@leoalvarenga_86447/como-consumir-dados-de-um-arquivo-json-com-o-reactjs-3754608724e9
   return (
       <StrictMode>
         <TopBar 
@@ -112,7 +109,7 @@ const App = () => {
 
         <Modal 
           modalId = "Autenticacao"
-          title = "Autenticação"
+          title = "Autenticacao"
           content = "Autenticação"
         />
         <Modal 
