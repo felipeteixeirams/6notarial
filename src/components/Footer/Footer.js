@@ -10,7 +10,6 @@ var dataAtual = new Date();
 
 
 const Footer = () => {
-    
      return (
         <footer className="section pl-3" id="footer">
             <div className="overlay footer-overlay">
