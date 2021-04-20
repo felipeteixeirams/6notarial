@@ -1,6 +1,6 @@
 import '@/_assents/css/responsive.css';
 
-const Title = (props) => {
+export default function Title (props) {
     return (
         <div className="row justify-content-center">
             <div className="col-md-8 col-lg-6 text-center">
@@ -16,5 +16,3 @@ const Title = (props) => {
         </div>
     );
 }
-
-export default Title;

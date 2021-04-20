@@ -1,9 +1,9 @@
 import predio from "@/_assents/img/banner/predio-768x1151.jpg";
 import '@/_assents/css/responsive.css';
 
-const About = () => {
+export default function About () {
     return (
-        <div>
+        <>
             <div className="row justy-content-center">
                 <div className="col-lg-3 col-sm-6 col-md-6">
                     <div className="text-center feature-block mb-6">
@@ -76,8 +76,6 @@ const About = () => {
                     </div>
                 </article>
             </div>
-        </div>
+        </>
     );
 }
-
-export default About;

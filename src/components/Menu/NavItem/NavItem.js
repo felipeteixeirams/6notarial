@@ -1,4 +1,4 @@
-const NavItem = (props) => {
+export default function NavItem (props) {
    let target = props.target === "true" ? "_black" : "_self";
    return (
       <li className="nav-item ">
@@ -8,5 +8,3 @@ const NavItem = (props) => {
       </li>
    )
 }
-
-export default NavItem;

@@ -1,6 +1,6 @@
 import '@/_assents/css/responsive.css';
 
-const Section = (props) => {
+export default function Section (props){
     
     return (
         <section className={`section ${props.bgColor}`} id={props.id}>
@@ -13,5 +13,3 @@ const Section = (props) => {
         </section>
     );
 }
-
-export default Section;

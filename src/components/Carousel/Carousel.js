@@ -4,7 +4,7 @@ import './Carousel.css';
 import '@/_assents/css/responsive.css';
 
 
-const Carousel = (props) => {
+export default function Carousel () {
     return (
         <div id="carouselMainBanner" className="carousel slide carousel-fade" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -29,5 +29,3 @@ const Carousel = (props) => {
         </div>
     );
 }
-
-export default Carousel;

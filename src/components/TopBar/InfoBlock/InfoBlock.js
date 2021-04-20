@@ -1,4 +1,4 @@
-const InfoBlock = (props) => {
+export default function InfoBlock (props) {
    return (
       <div className="info-block">
          <h5 className="font-weight-500">{props.Title}</h5>
@@ -6,5 +6,3 @@ const InfoBlock = (props) => {
       </div>
    )
 }
-
-export default InfoBlock;

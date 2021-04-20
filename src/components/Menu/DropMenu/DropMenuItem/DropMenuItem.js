@@ -1,4 +1,4 @@
-const DropMenuItem = (props) => {
+export default function DropMenuItem (props) {
    let target = props.target === "true" ? "_black" : "_self";
    return (
       <a className="dropdown-item " href={props.href} target={target} rel="noopener noreferrer">
@@ -6,5 +6,3 @@ const DropMenuItem = (props) => {
       </a>
    )
 }
-
-export default DropMenuItem;

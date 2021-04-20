@@ -1,6 +1,6 @@
 import './Modal.css';
 
-const Modal = (props) =>{
+export default function Modal (props) {
    return(
         <div className="modal fade" id={`modal${props.modalId}`} tabIndex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div className="modal-dialog modal-lg" role="document">
@@ -17,5 +17,3 @@ const Modal = (props) =>{
         </div>
    )
 }
-
-export default Modal;

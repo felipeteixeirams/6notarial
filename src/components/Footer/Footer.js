@@ -9,7 +9,7 @@ import Google from '@/components/Icons/Google/Google';
 var dataAtual = new Date();
 
 
-const Footer = () => {
+export default function Footer () {
      return (
         <footer className="section pl-3" id="footer">
             <div className="overlay footer-overlay">
@@ -97,5 +97,3 @@ const Footer = () => {
     </footer>
    )
 }
-
-export default Footer;

@@ -5,9 +5,9 @@ import Instagram from '@/components/Icons/Instagram/Instagram';
 import Mail from '@/components/Icons/Mail/Mail';
 import Logo from '@/components/Logo/Logo';
 
-const TopBar = (props) =>{
+export default function TopBar (props){
   return (
-    <div>
+    <>
       <div className="top-bar bg-dark " id="top-bar">
         <div className="container">
           <div className="row align-items-center">
@@ -44,8 +44,6 @@ const TopBar = (props) =>{
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
-
-export default TopBar;

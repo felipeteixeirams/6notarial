@@ -5,7 +5,7 @@ import './Menu.css';
 import NavItem from './NavItem/NavItem';
 import DropMenuItem from './DropMenu/DropMenuItem/DropMenuItem';
 
-const Menu = () => {
+export default function Menu () {
     return (
         <div className="main-navigation" id="mainmenu-area">
             <div className="container">
@@ -63,5 +63,3 @@ const Menu = () => {
         </div>
     );
 }
-
-export default Menu;

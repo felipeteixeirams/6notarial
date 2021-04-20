@@ -17,17 +17,19 @@ import Mobile from '@/components/Icons/Mobile/Mobile';
 
 
 const App = () => {
-
+    
     const el = document.getElementById('load');
-    const [servicesOffered, setServices] = useState([]);
-
+    const [services, setServices] = useState([]);
+    
+    fetch('./services.json',{
+        headers: {
+            Accept: "Application/json"
+        }
+    }).then(res => res.json())
+    .then(res => setServices(res.data))
+    
     useEffect(function(){
-        setTimeout(() => el.style = 'display: none', 4500);
-        fetch('./services.json', {
-            headers: {
-                Accept: "Application/json"
-            }
-        }).then(res => res.json()).then(res => setServices(res.data))
+        setTimeout(() => el.style = 'display: none', 4500)
     });
     
     //lendo Json https://pt.stackoverflow.com/questions/369566/como-fa%C3%A7o-para-consumir-esse-json-no-react
@@ -57,7 +59,7 @@ const App = () => {
                 content={
                     [
                         <Card
-                            modalId="Autenticacao"
+                            modalId={services[0].title}
                             icon="ti-stamp"
                             content="Autenticação de cópia"
                         />,
@@ -115,7 +117,7 @@ const App = () => {
 
             <Modal
                 modalId="Autenticacao"
-                title={console.log((servicesOffered[0].title).ToString())}
+                title="Autenticacao"
                 content="Autenticação"
             />
             <Modal
