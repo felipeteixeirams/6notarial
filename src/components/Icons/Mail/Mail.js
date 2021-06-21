@@ -1,7 +1,5 @@
-const Mail = () =>{
+export default function Mail (){
    return (
       <i className="far fa-envelope"></i>
    )
 }
-
-export default Mail;

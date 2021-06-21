@@ -1,7 +1,5 @@
-const Mobile = () =>{
+export default function Mobile (){
    return (
       <i className="ti-mobile"></i>
    )
 }
-
-export default Mobile;

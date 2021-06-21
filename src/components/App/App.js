@@ -18,20 +18,22 @@ import Mobile from '@/components/Icons/Mobile/Mobile';
 
 const App = () => {
     
-    const el = document.getElementById('load');
     const [services, setServices] = useState([]);
+    const el = document.getElementById('load');
     
-    fetch('./services.json',{
-        headers: {
-            Accept: "Application/json"
-        }
-    }).then(res => res.json())
-    .then(res => setServices(res.data))
     
     useEffect(function(){
         setTimeout(() => el.style = 'display: none', 4500)
+        fetch('./services.json',{
+            headers: {
+                Accept: "Application/json"
+            }
+        }).then(res => res.json())
+          .then(res => setServices(res.data))
     });
     
+    var autenticacaoData = services[0];
+    console.log(autenticacaoData);
     //lendo Json https://pt.stackoverflow.com/questions/369566/como-fa%C3%A7o-para-consumir-esse-json-no-react
     //verificar esse aqui >>> https://medium.com/@leoalvarenga_86447/como-consumir-dados-de-um-arquivo-json-com-o-reactjs-3754608724e9
     return (
@@ -59,7 +61,7 @@ const App = () => {
                 content={
                     [
                         <Card
-                            modalId={services[0].title}
+                            modalId="Autenticação"
                             icon="ti-stamp"
                             content="Autenticação de cópia"
                         />,
