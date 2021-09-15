@@ -67,9 +67,8 @@ export default function About () {
                         foram registrados nesse cartório, podendo nesse caso aqui serem emitidas Certidões de
                         Transcrições e/ou matrículas, isso, caso ainda não tenham sido transferidos para as Comarcas
                         de atual competência.</p>
-                        <p>O Cartório do 6º Ofício de Notas e/ou 6º Serviço Notarial, era de titularidade do Sr. Izaias
-                        Gomes Ferro (in memoriam) e desde a data de 18 de Dezembro de 2017, responde interinamente
-                        pela Serventia o Sr. Ariovaldo Pereira Rodrigues Neto, o qual trabalhou sem interrupção no
+                        <p>O Cartório do 6º Ofício de Notas e/ou 6º Serviço Notarial, era de titularidade do Sr. Izaias Gomes Ferro (in memoriam) e desde a data de 18 de Dezembro de 2017, responde interinamente
+                        pela Serventia o Sr. Ariovaldo Pereira R. Neto, o qual trabalhou sem interrupção no
                         mesmo Serviço Notarial, como funcionário desde a data de 1º de Março de 1983, mantendo assim
                         a tradição de excelência, segurança jurídica e qualidade nos serviços prestados.</p>
                         <p className="pt-1">Faça-nos uma <a href="https://g.page/6oficio?share" target="_blank" rel="noreferrer">visita</a>!</p>

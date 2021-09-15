@@ -52,10 +52,14 @@ export default function Menu () {
                                 href="https://www.tjms.jus.br/legislacao/visualizar.php?lei=21119"
                                 target="true"
                             />
+                            <NavItem 
+                                name="Privacidade"
+                                href="#"
+                            />
                         </ul>
 
                         <ul className="ml-lg-auto list-unstyled m-0">
-                            <li><a href="http://whats.link/sextooficio" target="_blank" className="btn btn-white btn-circled" rel="noreferrer"><i className=""></i>Envie uma mensagem</a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=5567999196848" target="_blank" className="btn btn-white btn-circled" rel="noreferrer"><i className=""></i>Envie uma mensagem</a></li>
                         </ul>
                     </div>
                 </nav>
