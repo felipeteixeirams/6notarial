@@ -19,10 +19,10 @@ export default function TopBar (props){
             <div className="col-lg-4 ml-lg-auto col-md-2">
               <ul className="d-flex list-unstyled header-socials float-lg-right top-bar-content">
                 <li>
-                  <a href="https://www.facebook.com/6oficio/" target="_blank" rel="noreferrer">< Facebook /></a>
+                  <a href="https://www.facebook.com/6oficio/" target="_blank" rel="noopener noreferrer">< Facebook /></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/6oficio/" target="_blank" rel="noreferrer">< Instagram/></a>
+                  <a href="https://www.instagram.com/6oficio/" target="_blank" rel="noopener noreferrer">< Instagram/></a>
                 </li>
                 <li>
                   <a href="mailto:atendimento@6notarial.com.br">< Mail /></a>

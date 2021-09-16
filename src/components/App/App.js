@@ -32,10 +32,17 @@ const App = () => {
           .then(res => setServices(res.data))
     });
     
-    var autenticacaoData = services[0];
-    console.log(autenticacaoData);
-    //lendo Json https://pt.stackoverflow.com/questions/369566/como-fa%C3%A7o-para-consumir-esse-json-no-react
-    //verificar esse aqui >>> https://medium.com/@leoalvarenga_86447/como-consumir-dados-de-um-arquivo-json-com-o-reactjs-3754608724e9
+    /*
+        fetch('./services.json',{
+            headers: {
+                Accept: "Application/json"
+            }
+        }).then(res => res.json())
+          .then(res => setServices(res.data))
+    */
+
+    var autenticacaoData = services;
+    
     return (
         <StrictMode>
             <TopBar
@@ -61,7 +68,7 @@ const App = () => {
                 content={
                     [
                         <Card
-                            modalId="Autenticação"
+                            modalId="Autenticacao"
                             icon="ti-stamp"
                             content="Autenticação de cópia"
                         />,
