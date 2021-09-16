@@ -15,33 +15,21 @@ import Clock from '@/components/Icons/Clock/Clock';
 import Mail from '@/components/Icons/Mail/Mail';
 import Mobile from '@/components/Icons/Mobile/Mobile';
 
-
 const App = () => {
     
-    const [services, setServices] = useState([]);
-    const el = document.getElementById('load');
+    const loading = document.getElementById('load');
+    const [ services, setServices ] = useState([]);
     
+    setTimeout(() => loading.style = 'display: none', 4500)
     
-    useEffect(function(){
-        setTimeout(() => el.style = 'display: none', 4500)
+    useEffect(() => {
         fetch('./services.json',{
-            headers: {
-                Accept: "Application/json"
-            }
+        headers: {
+            Accept: "application/json"
+        }
         }).then(res => res.json())
           .then(res => setServices(res.data))
-    });
-    
-    /*
-        fetch('./services.json',{
-            headers: {
-                Accept: "Application/json"
-            }
-        }).then(res => res.json())
-          .then(res => setServices(res.data))
-    */
-
-    var autenticacaoData = services;
+    },[]);
     
     return (
         <StrictMode>
@@ -76,7 +64,7 @@ const App = () => {
                             modalId="Reconhecimento"
                             icon="ti-id-badge"
                             content="Abertura e Reconhecimento de Firma"
-                        />,
+                        ></Card>,
                         <Card
                             modalId="Apostila"
                             icon="ti-world"
@@ -126,9 +114,10 @@ const App = () => {
 
             <Modal
                 modalId="Autenticacao"
-                title="Autenticacao"
+                title="Autenticação"
                 content="Autenticação"
             />
+
             <Modal
                 modalId="Reconhecimento"
                 title="Reconhecimento"
