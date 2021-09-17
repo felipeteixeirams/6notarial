@@ -1,4 +1,4 @@
-import React, { StrictMode, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 /*** Components ***/
 import TopBar from '@/components/TopBar/TopBar';
 import Menu from '@/components/Menu/Menu';
@@ -15,24 +15,24 @@ import Clock from '@/components/Icons/Clock/Clock';
 import Mail from '@/components/Icons/Mail/Mail';
 import Mobile from '@/components/Icons/Mobile/Mobile';
 
+const loading = document.getElementById('load');
+setTimeout(() => loading.style = 'display: none', 4500);
+
 const App = () => {
     
-    const loading = document.getElementById('load');
     const [ services, setServices ] = useState([]);
-    
-    setTimeout(() => loading.style = 'display: none', 4500)
     
     useEffect(() => {
         fetch('./services.json',{
-        headers: {
-            Accept: "application/json"
-        }
+            headers: {
+                Accept: "application/json"
+            }
         }).then(res => res.json())
-          .then(res => setServices(res.data))
+        .then(res => setServices(res.data))
     },[]);
-    
+
     return (
-        <StrictMode>
+        <>
             <TopBar
                 information={<div><div className="top-info-block d-inline-flex">{<IconBlock Icon={< Mobile />} />}{<InfoBlock Title={"(67) 3382-2590 (67)99919-6848"} Description={"Contate-nos"} />}</div><div className="top-info-block d-inline-flex">{<IconBlock Icon={< Mail />} />}{<InfoBlock Title={"atendimento@6notarial.com.br"} Description={"Envie um e-mail"} />}</div><div className="top-info-block d-inline-flex">{<IconBlock Icon={< Clock />} />}{<InfoBlock Title={"Seg-Sex 8:00-17:00"} Description={"Funcionamento"} />}</div></div>}
             />
@@ -41,7 +41,11 @@ const App = () => {
 
             <Carousel />
 
-            <Section bgColor="bg-grey" id="sobre" content={<About />} />
+            <Section 
+                bgColor="bg-grey" 
+                id="sobre" 
+                content={<About />} 
+            />
 
             <Section
                 bgColor={" "}
@@ -114,46 +118,48 @@ const App = () => {
 
             <Modal
                 modalId="Autenticacao"
-                title="Autenticação"
-                content="Autenticação"
+                title={services[0].title}
+                content={services[0].content}
             />
+
+            {console.log(services)}
 
             <Modal
                 modalId="Reconhecimento"
-                title="Reconhecimento"
-                content="Reconhecimento"
+                title={services[1].title}
+                content={services[1].content}
             />
             <Modal
                 modalId="Apostila"
-                title="Apostila"
-                content="Apostila"
+                title={services[2].title}
+                content={services[1].content}
             />
             <Modal
                 modalId="Escritura"
-                title="Escritura"
-                content="Escritura"
+                title={services[3].title}
+                content={services[1].content}
             />
             <Modal
                 modalId="Procuracao"
-                title="Procuracao"
-                content="Procuracao"
+                title={services[4].title}
+                content={services[1].content}
             />
             <Modal
                 modalId="Testamento"
-                title="Testamento"
-                content="Testamento"
+                title={services[5].title}
+                content={services[1].content}
             />
             <Modal
                 modalId="Alegacao"
-                title="Alegacao"
-                content="Alegacao"
+                title={services[6].title}
+                content={services[7].content}
             />
             <Modal
                 modalId="Certidao"
-                title="Certidao"
-                content="Certidao"
+                title={services[7].title}
+                content={services[7].content}
             />
-        </StrictMode>
+        </>
     );
 }
 
