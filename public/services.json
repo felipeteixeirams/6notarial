@@ -2,7 +2,6 @@
     "data":
     [
         {
-            "id":"Autenticacao",
             "title": "Autenticação de cópias",
             "content": "<h5>O que é?</h5><p>A <strong>cópia autenticada</strong> é a reprodução de um documento, na qual o tabelião atesta que se trata de cópia fiel ao documento original, que conserva todos os sinais característicos e necessários à sua identificação.</p><h5>Como é feita?</h5><p>A parte interessada apresenta o documento original no tabelionato de notas e solicita a cópia autenticada. A reprodução do documento original pode ser feita no próprio tabelionato ou fornecida pelo usuário junto com o documento original. Em ambos os casos será conferida com o documento original para verificar se a cópia conserva seus elementos identificadores, em seguida é aposto um selo de autenticidade, carimbo e assinatura do encarregado pela autenticação.</p> <p>É vedada a utilização de cópia de documento, autenticada ou não, para fazer nova autenticação, ou seja, a cópia autenticada só pode ser feita mediante apresentação de documentos originais. Também é vedada a extração de cópia autenticada se o documento original contiver rasuras, tiver sido adulterado por raspagem ou corretivo, bem como contiver escritos a lápis. No caso de documentos de identificação, é vedada a extração de cópia autenticada se o documento estiver replastificado.</p>"
         },
