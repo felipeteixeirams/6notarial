@@ -1,5 +1,5 @@
 export default function Facebook (){
    return (
-      <i className="fab fa-facebook-f"></i>
+      <i className="ti-facebook pr-2"></i>
    )
 }

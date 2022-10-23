@@ -1,5 +1,5 @@
 import '@/_assents/css/responsive.css';
-import '@/_assents/fonts/themify/themify-icons.css';
+import '@/_assents/icons/themify/themify-icons.css';
 
 export default function Card (props) {
     return (

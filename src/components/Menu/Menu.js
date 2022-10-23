@@ -1,6 +1,5 @@
-import '@/_assents/css/all.css';
 import '@/_assents/css/responsive.css';
-import '@/_assents/fonts/themify/themify-icons.css';
+import '@/_assents/icons/themify/themify-icons.css';
 import './Menu.css';
 import NavItem from './NavItem/NavItem';
 import DropMenuItem from './DropMenu/DropMenuItem';
@@ -16,7 +15,7 @@ export default function Menu () {
                             <h4>6º Serviço Notarial</h4>
                         </span>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="fa fa-bars"></span>
+                            <span className="ti-view-list"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarCollapse">
                             <ul className="navbar-nav ">

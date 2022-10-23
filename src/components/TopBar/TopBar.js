@@ -1,4 +1,3 @@
-import '@/_assents/css/all.css';
 import '@/_assents/css/responsive.css';
 import Facebook from '@/components/Icons/Facebook/Facebook';
 import Instagram from '@/components/Icons/Instagram/Instagram';

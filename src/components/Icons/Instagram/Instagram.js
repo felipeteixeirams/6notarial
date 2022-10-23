@@ -1,5 +1,5 @@
 export default function Instagram (){
    return (
-      <i className="fab fa-instagram"></i>
+      <i className="ti-instagram pr-2"></i>
    )
 }

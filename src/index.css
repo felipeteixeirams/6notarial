@@ -22,7 +22,7 @@ body {
 * ----------------------------------------
 */
 
-
+@import url('@/_assents/icons/themify/themify-icons.css');
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900');
 
 
@@ -983,12 +983,6 @@ SECTION TESTIMONIAL
     background: url("./_assents/img/bg/10.jpg");
     -webkit-background-size: cover;
     background-size: cover;
-}
-
-.ponto {
-    font-size: 5px;
-    position: absolute;
-    margin-top: 14px;
 }
 
 .footer-overlay {
