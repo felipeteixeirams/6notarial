@@ -9,8 +9,8 @@
 }
 
 .square-to-circle {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   animation: square-to-circle 2s 1s infinite cubic-bezier(1,.015,.295,1.225) alternate;
 }
 
