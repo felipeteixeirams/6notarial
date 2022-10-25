@@ -4,7 +4,12 @@ import Instagram from '@/components/Icons/Instagram/Instagram';
 import Mail from '@/components/Icons/Mail/Mail';
 import Logo from '@/components/Logo/Logo';
 
-export default function TopBar (props){
+import IconBlock from './IconBlock/IconBlock';
+import InfoBlock from './InfoBlock/InfoBlock';
+import Clock from '@/components/Icons/Clock/Clock';
+import Mobile from '@/components/Icons/Mobile/Mobile';
+
+export default function TopBar (){
   return (
     <>
       <div className="top-bar bg-dark " id="top-bar">
@@ -38,7 +43,14 @@ export default function TopBar (props){
               <Logo />
             </div>
             <div className="col-lg-9 justify-content-end ml-lg-auto d-flex col-12">
-              {props.information}
+              <div>
+                <div className="top-info-block d-inline-flex"><IconBlock Icon={< Mobile />} /><InfoBlock Title="(67) 3382-2590 (67)99919-6848" Description="Contate-nos" />
+                </div>
+                <div className="top-info-block d-inline-flex"><IconBlock Icon={< Mail />} />{<InfoBlock Title="atendimento@6notarial.com.br" Description="Envie um e-mail" />}
+                </div>
+                <div className="top-info-block d-inline-flex"><IconBlock Icon={< Clock />} /><InfoBlock Title="Seg-Sex 8:00-17:00" Description="Funcionamento" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

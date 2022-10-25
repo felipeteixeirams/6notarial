@@ -72,6 +72,17 @@ export default function Menu () {
                 title="Lei Geral de Proteção de Dados"
                 content={<><h4>Encarregado de dados do 6º Serviço Notarial</h4><blockquote cite="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm">Segundo a LGPD em seu Art. 5º, inciso VIII, o encarregado é a “pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD)”.</blockquote><br /><h5>Encarregado</h5><p>Ariovaldo Pereira Rodrigues Neto</p><br /><h5>Informações de Contato:</h5><em><a href="mailto:privacidade@6notarial.com.br">E-mail: privacidade@6notarial.com.br</a></em><br /><br /><h5>Atribuições do encarregado</h5><p>Art. 41 da lei, § 2º As atividades do encarregado consistem em:</p><ul><li>I - aceitar reclamações e comunicações dos titulares, prestar esclarecimentos e adotar providências;</li><li>II - receber comunicações da autoridade nacional e adotar providências;</li><li>III - orientar os funcionários e os contratados da entidade a respeito das práticas a serem tomadas em relação à proteção de dados pessoais; e</li><li>IV - executar as demais atribuições determinadas pelo controlador ou estabelecidas em normas complementares.</li></ul><br/><br/><h4>Solicitações</h4><p>As solicitações poderão ser realizadas através do e-mail <em><a href="mailto:privacidade@6notarial.com.br">E-mail: privacidade@6notarial.com.br</a></em> ou presencialmente nesta serventia, sendo que solicitações via e-mail deverão ser assinadas digitalmente pelo titular dos dados com certificado em acordo com o padrão ICP-Brasil, acompanhando além da solicitação o Seu nome, E-mail, CPF e Telefone para contato.</p></>}
             />
+
+            <Modal
+                modalId="ConsultaSelo"
+                title={"Consulta de Selo Eletrônico"}
+                content={<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" frameBorder="0" height="400px" width="100%" title="consulta selo"></iframe>}
+            />
+
+            <Modal
+                modalId="ConsultaAlegacao"
+                content={<iframe frameBorder="0" hspace="0" vspace="0" marginHeight="0" marginWidth="0" src="https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp" title="consulta alegação de venda"></iframe>}
+            />
         </>
     )
 }
