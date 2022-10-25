@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals.js';
 /* Imports Extras */
 import './index.css';
-import App from '@/containers/App/App';
+import App from '@/features/App/App';
 
 
 ReactDOM.render(

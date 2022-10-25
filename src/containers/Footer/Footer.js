@@ -2,13 +2,11 @@ import React from 'react';
 import './Footer.css';
 import '@/_assents/css/responsive.css';
 import '@/_assents/icons/themify/themify-icons.css';
-import Map from '../Map/Map';
+import Map from '@/components/Map/Map';
 import Facebook from '@/components/Icons/Facebook/Facebook';
 import Instagram from '@/components/Icons/Instagram/Instagram';
 import Google from '@/components/Icons/Google/Google';
-
-var dataAtual = new Date();
-
+import Time from '@/utils/time';
 
 export default function Footer () {
      return (
@@ -90,7 +88,7 @@ export default function Footer () {
                 <div className='row justify-content-md-center'>
 
                     <div className="d-flex justify-content-center col">
-                        <p>&copy; {dataAtual.getFullYear()} 6&#186; Serviço Notarial - hospedado por <a href="http://www.avianti.com.br/" target="_blank" rel="noreferrer">Avianti</a></p>
+                        <p>&copy; {Time.getFullYear()} 6&#186; Serviço Notarial - hospedado por <a href="http://www.avianti.com.br/" target="_blank" rel="noreferrer">Avianti</a></p>
                    </div>
 
                 </div>
