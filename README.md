@@ -1,5 +1,5 @@
 ### Preview
-<img src="preview.jpg" heigth="500px" />
+<img src="preview.jpg" width="400px" />
 
 ### `npm start`
 
