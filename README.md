@@ -1,3 +1,6 @@
+### Preview
+<img src="preview.jpg" heigth="500px" />
+
 ### `npm start`
 
 Runs the app in the development mode.\
