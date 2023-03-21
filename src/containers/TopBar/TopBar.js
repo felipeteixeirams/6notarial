@@ -17,7 +17,7 @@ export default function TopBar (){
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-10 top-bar-content">
               <div className="text-white">
-                <span className="ml-1 size-1">15 de novembro, 428, Campo Grande(MS), 79002-140</span>
+                <span className="ml-1 size-1">15 de novembro, 428, Campo Grande/ MS, 79002-140</span>
               </div>
             </div>
             <div className="col-lg-4 ml-lg-auto col-md-2">

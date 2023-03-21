@@ -18,7 +18,7 @@
   0%{
     transform: rotale(0deg);
     border-radius: 0;
-    backgroud: #ff8e59;
+    background: #ff8e59;
   }
   25%{
     transform: rotale(45deg);

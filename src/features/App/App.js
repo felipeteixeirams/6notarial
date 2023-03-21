@@ -9,11 +9,10 @@ import Footer from '@/containers/Footer/Footer';
 
 const App = () => {
     
-    const loading = document.getElementById('load');
-
-
-    setTimeout(() => loading.style = 'display: none', 4500);
-
+    // Removendo a tela de carregamento
+    const loadingAnimation = document.getElementById('load');
+    setTimeout(() => loadingAnimation.remove(), 4500);
+    
     return (
         <>
 
