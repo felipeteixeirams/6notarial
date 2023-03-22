@@ -3,7 +3,7 @@ import '@/_assents/css/responsive.css';
 export default function Section (props){
     
     return (
-        <section className={`section ${props.bgColor}`} id={props.id}>
+        <section className={`section ${props.bgColor}`} id={`${props.id}`}>
             <div className="container">
                 {props.head}
                 <div className="row">

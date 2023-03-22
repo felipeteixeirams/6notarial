@@ -27,7 +27,6 @@ export default function Services () {
                             modalId="Autenticacao"
                             icon="ti-stamp"
                             content="Autenticação de cópia"
-                            key="1"
                         />,
                         <Card
                             modalId="Reconhecimento"
