@@ -105,6 +105,25 @@ const servicesData = {
             <li>Pedido de Certidão de Testamento</li>
         </ul>
         <p>Para realizar a solicitação de informação sobre existência de testamento é necessário acessar o portal <a target="_blank" rel="noreferrer" href="https://www.buscatestamento.org.br/">https://www.buscatestamento.org.br/</a>, mais precisamente no link Busca de Testamento, realizar seu cadastro e encaminhar os documentos solicitados.</p></>}</>
+    },
+    privacidade: {
+        title: "Lei Geral de Proteção de Dados",
+        content: <>{<><p className='h4'>Encarregado de dados do 6º Serviço Notarial</p>
+        <blockquote cite="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm">Segundo a LGPD em seu Art. 5º, inciso VIII, o encarregado é a “pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD)”.</blockquote>
+        <p className="mt-4 h4">Encarregado</p>
+        <p>Sr. Ariovaldo Pereira Rodrigues Neto - Tabelião Interino</p>
+        <p className="mt-5 h4">Atribuições do encarregado</p>
+        <p>Art. 41 da lei, § 2º As atividades do encarregado consistem em:</p>
+        <ul className="list">
+            <li>I - aceitar reclamações e comunicações dos titulares, prestar esclarecimentos e adotar providências;</li>
+            <li>II - receber comunicações da autoridade nacional e adotar providências;</li>
+            <li>III - orientar os funcionários e os contratados da entidade a respeito das práticas a serem tomadas em relação à proteção de dados pessoais; e</li>
+            <li>IV - executar as demais atribuições determinadas pelo controlador ou estabelecidas em normas complementares.</li>
+        </ul>
+        <p className="mt-4 h4">Canal de atendimento</p>
+        <p><em>Digitalmente</em> - As solicitações poderão ser realizadas através do e-mail <a href="mailto:privacidade@6notarial.com.br">privacidade@6notarial.com.br</a>, devendo o pedido ser assinado digitalmente pelo titular dos dados utilizando <a target={'_blank'} href='https://www.gov.br/iti/pt-br/assuntos/certificado-digital' rel='noreferrer'>Certificado Digital</a> em acordo com o padrão <abbr title='Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil'>ICP-Brasil</abbr>, acompanhada do Nome, E-mail, CPF e Telefone para contato.</p>
+        <p><em>Presencialmente</em> - O titular poderá entregar seu pedido presencialmente, devidamente assinado, acompanhado de seu Nome, E-mail, CPF e Telefone para contato.</p>
+        <p>Em ambos os casos o titular receberá sua resposta de providências por e-mail, ficando disponível retira-la presencialmente.</p></>}</>
     }
 }
 

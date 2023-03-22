@@ -52,6 +52,9 @@ export default function Footer () {
                                     Tabela de Preços
                                 </a>
                             </li>
+                            <li>
+                                <a className="js-scroll-trigger" href="#navbarCollapse" data-toggle="modal" data-target="#modalPrivacidade">Privacidade</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

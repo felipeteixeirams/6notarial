@@ -1,5 +1,6 @@
 import React from 'react';
-import banner_1 from '@/_assents/img/banner/banner_1.jpg';
+import banner_0 from '@/_assents/img/banner/banner_1.png';
+//import banner_1 from '@/_assents/img/banner/banner_1.jpg';
 import './Carousel.css';
 import '@/_assents/css/responsive.css';
 
@@ -12,19 +13,20 @@ export default function Carousel () {
             </ol>
             <div className="carousel-inner" id="innerCarousel">
                 <div className="carousel-item active">
-                    <figure>
-                        <img className="d-block h-100" src={banner_1} alt="Primeiro Slide" />
-                        <figcaption><h1>COMO E ONDE OBTER UM CERTIFICADO NOTARIAL?</h1> <p>Dirija-se a um Tabelionato de Notas mais próximo e solicite a expedição do seu certificado notarial. É gratuito!</p></figcaption>
-                    </figure>
+                    <img height="100%" src={banner_0} alt="..." />
+                    <div class="carousel-caption d-md-block">
+                        <p className='d-inline-flex h3 text-muted bg-white'>Onde obter um certificado digital notarializado?</p>
+                        <p className='d-inline-flex h4 text-muted bg-white'>Dirija-se a um Tabelionato de Notas mais próximo e solicite a expedição do seu certificado notarial. É gratuito!</p>
+                    </div>
                 </div>
             </div>
             <a className="carousel-control-prev" href="#carouselMainBanner" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Anterior</span>
+                <span className="visually-hidden"></span>
             </a>
             <a className="carousel-control-next" href="#carouselMainBanner" role="button" data-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Próximo</span>
+                <span className="visually-hidden"></span>
             </a>
         </div>
     );
