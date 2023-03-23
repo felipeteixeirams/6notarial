@@ -12,41 +12,41 @@ export default function About () {
                 <><div className="row justy-content-center">
                     <div className="col-lg-3 col-sm-6 col-md-6">
                         <div className="text-center feature-block mb-6">
-                            <div className="img-icon-block mb-2">
+                            <div className="img-icon-block mb-1">
                                 <i className="ti-car"></i>
                             </div>
-                            <h4 className="mb-2">Estacionamento próprio</h4>
+                            <h4 className="mb-0">Estacionamento próprio</h4>
                             <p>Estacionamento gratuito para clientes.</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-sm-6 col-md-6">
-                        <div className="text-center feature-block mb-3">
-                            <div className="img-icon-block mb-4">
+                        <div className="text-center feature-block mb-6">
+                            <div className="img-icon-block mb-1">
                                 <i className="ti-map-alt"></i>
                             </div>
-                            <h4 className="mb-2">Fácil localização</h4>
+                            <h4 className="mb-0">Fácil localização</h4>
                             <p>Localizado frente a praça Ary Coelho.</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-sm-6 col-md-6">
-                        <div className="text-center feature-block mb-3">
-                            <div className="img-icon-block mb-4">
+                        <div className="text-center feature-block mb-6">
+                            <div className="img-icon-block mb-1">
                                 <i className="ti-signal"></i>
                             </div>
-                            <h4 className="mb-2">Ponto de acesso a internet</h4>
+                            <h4 className="mb-0">Ponto de acesso a internet</h4>
                             <p>Acesso descomplicado via Check-in</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-sm-6 col-md-6">
-                        <div className="text-center feature-block mb-3">
-                            <div className="img-icon-block mb-4">
+                        <div className="text-center feature-block mb-6">
+                            <div className="img-icon-block mb-1">
                                 <i className="ti-stamp"></i>
                             </div>
-                            <h4 className="mb-2">Atendimento de qualidade</h4>
-                            <p>Buscamos sempre melhor atendê-los.</p>
+                            <h4 className="mb-0">Atendimento de qualidade</h4>
+                            <p className="mb-3">Buscamos sempre melhor atendê-los.</p>
                         </div>
                     </div>
                 </div>

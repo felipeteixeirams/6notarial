@@ -36,18 +36,18 @@ export default function Menu () {
                                         <DropMenuItem 
                                             href = "https://buscatestamento.org.br/"
                                             target="true"
-                                            content= {<div>Busca de Testamento (<abbr title="Colégio Notarial do Brasil">CNB</abbr>)</div>}
+                                            content= {<>Busca de Testamento <i className='ti-new-window'></i></>}
                                         />
                                         <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaAlegacao">
-                                            Consultar Comunicação de Venda (<abbr title="Departamento Estadual de Trânsito do MS">DETRAN/MS</abbr>)
+                                            Consultar Comunicação de Venda (<abbr title="Departamento Estadual de Trânsito do MS" className="initialism">DETRAN/MS</abbr>)
                                         </a>
                                         <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaSelo">
-                                            Consultar Selo de Autenticidade (<abbr title="Corregedoria Geral do MS">SIGEX</abbr>)
+                                            Consultar Selo de Autenticidade (<abbr title="Corregedoria Geral do MS" className="initialism">SIGEX</abbr>)
                                         </a>
                                         <DropMenuItem
                                             href= "https://www.e-notariado.org.br/"
                                             target = "true"
-                                            content = {<>E-notariado (<abbr title="Colégio Notarial do Brasil">CNB</abbr>)</>}
+                                            content = {<>Atos Eletrônicos <i className='ti-new-window'></i></>}
                                         />
                                     </div>
                                 </li>
@@ -77,12 +77,13 @@ export default function Menu () {
             <Modal
                 modalId="ConsultaSelo"
                 title="Consulta de Selo Eletrônico"
-                content={<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" frameBorder="0" height="400px" width="100%" title="consulta selo"></iframe>}
+                content={<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" height="400px" width="100%" title="consulta selo"></iframe>}
             />
 
             <Modal
                 modalId="ConsultaAlegacao"
-                content={<iframe hspace="0" vspace="0" src="https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp" title="consulta alegação de venda"></iframe>}
+                title="Consulta Detran (MS)"
+                content={<iframe src="https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp" height="70vh" width="100%" title="consulta alegação de venda"></iframe>}
             />
         </>
     )

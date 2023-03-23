@@ -35,3 +35,8 @@
 .list {
    list-style-type: none;
 }
+
+#modalConsultaAlegacao iframe,
+#modalConsultaSelo iframe{
+   height: 70vh;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals.js';
 /* Imports Extras */
-import './index.css';
+import '@/_assents/css/index.css';
 import App from '@/features/App/App';
 
 

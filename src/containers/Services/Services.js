@@ -16,7 +16,7 @@ export default function Services () {
                 id="services"
                 head={
                     <SectionTitle
-                        title="Serviços"
+                        title="Principais Serviços"
                         description="Conheça mais sobre os principais serviços oferecidos por nós."
                         color="text-white"
                     />

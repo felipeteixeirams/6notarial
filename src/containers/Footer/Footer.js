@@ -90,7 +90,7 @@ export default function Footer () {
 
                 <div className='row justify-content-md-center'>
 
-                    <div className="d-flex justify-content-center col">
+                    <div className="d-flex justify-content-center col pt-2">
                         <p>&copy; {Time.getFullYear()} 6&#186; Serviço Notarial - hospedado por <a href="http://www.avianti.com.br/" target="_blank" rel="noreferrer">Avianti</a></p>
                    </div>
 

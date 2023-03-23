@@ -103,23 +103,6 @@
         margin-bottom: 30px;
     }
 
-    .project-content-block {
-        text-align: center;
-        margin-left: 0px;
-        padding: 70px 20px;
-        position: relative;
-        bottom: 0px;
-        margin-top: 40px;
-    }
-
-    .project-content-block h4 {
-        font-size: 14px;
-    }
-
-    .blog-box {
-        margin-bottom: 50px;
-    }
-
     .footer-copy {
         text-align: center;
     }
@@ -259,27 +242,6 @@
 
     .section-heading {
         margin-bottom: 30px;
-    }
-
-    .project-content-block {
-        text-align: center;
-        margin-left: 0px;
-        padding: 70px 20px;
-        position: relative;
-        bottom: 0px;
-        margin-top: 40px;
-    }
-
-    .project-content-block h4 {
-        font-size: 14px;
-    }
-
-    .testimonial-heading {
-        margin-bottom: 50px;
-    }
-
-    .blog-box {
-        margin-bottom: 50px;
     }
 
     .footer-copy {
@@ -426,26 +388,6 @@
         margin-bottom: 30px;
     }
 
-    .project-content-block {
-        text-align: center;
-        margin-left: 0px;
-        padding: 70px 20px;
-        position: relative;
-        bottom: 0px;
-    }
-
-    .project-content-block h4 {
-        font-size: 14px;
-    }
-
-    .testimonial-heading {
-        margin-bottom: 50px;
-    }
-
-    .blog-box {
-        margin-bottom: 50px;
-    }
-
     .footer-copy {
         text-align: center;
     }
@@ -542,6 +484,10 @@
 /* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px) {
 
+    .container {
+        max-width: 540px;
+    }
+
     .carousel-item {
         max-height: 47vh;
     }
@@ -617,7 +563,7 @@
     }
 
     .service-content {
-        padding-bottom: 70px;
+        padding-bottom: 60px;
     }
 
     .process-block,
@@ -634,27 +580,6 @@
 
     .section-heading {
         margin-bottom: 30px;
-    }
-
-    .project-content-block {
-        text-align: center;
-        margin-left: 0px;
-        padding: 70px 20px;
-        position: relative;
-        bottom: 0px;
-        margin-top: 30px;
-    }
-
-    .project-content-block h4 {
-        font-size: 14px;
-    }
-
-    .testimonial-heading {
-        margin-bottom: 50px;
-    }
-
-    .blog-box {
-        margin-bottom: 50px;
     }
 
     .footer-copy {
