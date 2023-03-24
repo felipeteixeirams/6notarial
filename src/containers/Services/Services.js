@@ -1,5 +1,6 @@
 import React from 'react';
 import '@/_assents/css/responsive.css';
+import '@/_assents/css/index.css';
 import '@/_assents/icons/themify/themify-icons.css';
 
 import Section from '@/components/Section/Section';

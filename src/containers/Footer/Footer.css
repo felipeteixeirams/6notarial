@@ -1,11 +1,41 @@
+#footer {
+    position: relative;
+    padding: 6rem 0;
+}
+
 .ponto {
     font-size: 5px;
     position: absolute;
     margin-top: 14px;
 }
 
-.footer-links-2 {
+.footer-links-contact-us {
     padding-left: 0;
     list-style-type: none;
-    color: #888888
+    color: #888888;
+    padding-bottom: 5px;
+}
+
+.footer-links-contact-us > li {
+    list-style-position: outside;
+
+}
+
+.footer-links-site-map a {
+    color: #888888;
+
+    transition: .3s;
+}
+
+.footer-links-site-map a:active {
+    color: #21c87a;
+}
+
+.footer-links-site-map a:hover {
+    color: #d8d8d8;
+}
+
+ul.footer-links-site-map li,
+ul.footer-links-contact-us li{
+    padding-top: .3rem
 }

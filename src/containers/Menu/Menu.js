@@ -11,7 +11,7 @@ export default function Menu () {
         <>
             <div className="main-navigation" id="mainmenu-area">
                 <div className="container">
-                    <nav className="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable">
+                    <nav className="navbar navbar-expand-lg navbar-dark bg-dark main-nav navbar-togglable">
                         <span className="navbar-brand d-lg-none d-block">
                             <h4>6º Serviço Notarial</h4>
                         </span>

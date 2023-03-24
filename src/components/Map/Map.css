@@ -5,3 +5,11 @@ iframe {
    box-sizing: border-box;
    margin: auto
 }
+
+#map > iframe {
+   height: 300px;
+   width: 100%;
+   border:0;
+   box-sizing: border-box;
+   margin: auto
+}

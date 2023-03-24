@@ -1,0 +1,13 @@
+.section {
+    position: relative;
+    padding: 6rem 0;
+}
+
+.section-heading {
+    margin-bottom: 80px;
+}
+
+.section-heading p {
+    margin-bottom: 0px !important;
+}
+
