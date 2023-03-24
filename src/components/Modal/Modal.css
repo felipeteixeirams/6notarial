@@ -6,3 +6,8 @@ div.modal-body iframe {
     width: 100%;
     min-height: 60vmin;
 }
+
+.modal-body li {
+    padding-right: 1rem;
+    list-style-type: circle;
+}

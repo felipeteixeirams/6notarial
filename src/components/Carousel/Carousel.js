@@ -14,7 +14,7 @@ export default function Carousel () {
             <div className="carousel-inner" id="innerCarousel">
                 <div className="carousel-item active">
                     <img height="100%" src={banner_0} alt="..." />
-                    <div class="carousel-caption d-md-block">
+                    <div className="carousel-caption d-md-block">
                         <p className='d-inline-flex h3 text-muted bg-white'>Onde obter um certificado digital notarializado?</p>
                         <p className='d-inline-flex h4 text-muted bg-white'>Dirija-se a um Tabelionato de Notas mais próximo e solicite a expedição do seu certificado notarial. É gratuito!</p>
                     </div>

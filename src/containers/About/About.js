@@ -1,4 +1,4 @@
-import predio from "@/_assents/img/banner/predio-768x1151.jpg";
+import predio from "@/_assents/img/banner/predio-601x900.jpg";
 import '@/_assents/css/responsive.css';
 
 import Section from "@/components/Section/Section";

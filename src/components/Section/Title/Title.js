@@ -1,4 +1,5 @@
 import '@/_assents/css/responsive.css';
+import './Title.css';
 
 export default function Title (props) {
     return (

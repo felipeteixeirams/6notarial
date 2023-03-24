@@ -145,11 +145,15 @@
     .contact-info-block {
         margin-bottom: 25px;
     }
-
-    #work-wrap p.lead {
-        margin-bottom: 40px;
+    
+    .section {
+        padding: 7.5rem 0
     }
+    
+    
 }
+
+
 
 
 
@@ -292,9 +296,6 @@
         margin-bottom: 25px;
     }
 
-    #work-wrap p.lead {
-        margin-bottom: 40px;
-    }
 
 }
 
@@ -475,11 +476,7 @@
         margin-bottom: 25px;
     }
 
-    #work-wrap p.lead {
-        margin-bottom: 40px;
-    }
 }
-
 
 /* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px) {
@@ -674,10 +671,6 @@
 
     .contact-info-block {
         margin-bottom: 25px;
-    }
-
-    #work-wrap p.lead {
-        margin-bottom: 40px;
     }
     
     .size-1 {

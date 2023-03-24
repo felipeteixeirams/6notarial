@@ -77,7 +77,7 @@ export default function Menu () {
             <Modal
                 modalId="ConsultaSelo"
                 title="Consulta de Selo Eletrônico"
-                content={<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" height="400px" width="100%" title="consulta selo"></iframe>}
+                content={<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" min-height="400px" height="400px" width="100%" title="consulta selo"></iframe>}
             />
 
             <Modal
