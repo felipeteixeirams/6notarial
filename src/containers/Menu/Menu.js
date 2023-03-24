@@ -1,7 +1,7 @@
 import '@/_assents/css/responsive.css';
+import './Menu.css';
 import '@/_assents/icons/themify/themify-icons.css';
 import Modal from '@/components/Modal/Modal';
-import './Menu.css';
 import NavItem from './NavItem/NavItem';
 import DropMenuItem from './DropMenu/DropMenuItem';
 import servicesData from '@/constants/services';

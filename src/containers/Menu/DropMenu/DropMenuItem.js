@@ -1,3 +1,5 @@
+import '@/_assents/css/responsive.css';
+
 export default function DropMenuItem (props) {
    let target = props.target === "true" ? "_black" : "_self";
    return (

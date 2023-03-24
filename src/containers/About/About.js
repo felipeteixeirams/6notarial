@@ -59,7 +59,7 @@ export default function About () {
 
                     <article className="col-lg-8 pl-5 pr-4 mb-1 service-content">
                         <header>
-                            <h1>6º Serviço Notarial e antiga 4ª. Circunscrição Imobiliária</h1>
+                            <h1 class="h2">6º SERVIÇO NOTARIAL E ANTIGA  4º. CIRCUNSCRIÇÃO IMOBILIÁRIA</h1>
                         </header>
                         <div className="blog-content">
                             <p>Cartório localizado na região central da capital Sul-mato-grossense, tem atribuição de
