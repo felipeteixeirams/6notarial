@@ -1,11 +1,9 @@
 import React from 'react';
-import banner_0 from '@/_assents/img/banner/banner_1.png';
-//import banner_1 from '@/_assents/img/banner/banner_1.jpg';
 import './Carousel.css';
 import '@/_assents/css/responsive.css';
 
 
-export default function Carousel () {
+export default function Carousel (props) {
     return (
         <div id="carouselMainBanner" className="carousel slide carousel-fade" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -13,10 +11,10 @@ export default function Carousel () {
             </ol>
             <div className="carousel-inner" id="innerCarousel">
                 <div className="carousel-item active">
-                    <img height="100%" src={banner_0} alt="..." />
+                    <img height="100%" src={props.banner} alt="..." />
                     <div className="carousel-caption d-md-block">
-                        <p className='d-inline-flex h3 text-muted bg-white'>Onde obter um certificado digital notarializado?</p>
-                        <p className='d-inline-flex h4 text-muted bg-white'>Dirija-se a um Tabelionato de Notas mais próximo e solicite a expedição do seu certificado notarial. É gratuito!</p>
+                        <p className='d-inline-flex h3 text-muted bg-white'>{props.title}</p>
+                        <p className='d-inline-flex h4 text-muted bg-white'>{props.description}</p>
                     </div>
                 </div>
             </div>
