@@ -1,5 +1,6 @@
 import React from 'react';
 
+/** Imports components */
 import Carousel from '@/components/Carousel/Carousel';
 
 

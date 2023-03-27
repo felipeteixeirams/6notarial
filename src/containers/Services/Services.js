@@ -3,6 +3,7 @@ import '@/_assents/css/responsive.css';
 import '@/_assents/css/index.css';
 import '@/_assents/icons/themify/themify-icons.css';
 
+/** Imports components */
 import Section from '@/components/Section/Section';
 import SectionTitle from '@/components/Section/Title/Title';
 import Card from '@/components/Card/Card';

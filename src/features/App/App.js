@@ -1,4 +1,4 @@
-/*** Imports components ***/
+/*** Imports containers ***/
 import TopBar from '@/containers/TopBar/TopBar';
 import Menu from '@/containers/Menu/Menu';
 import Main from '@/containers/Main/Main';
@@ -8,11 +8,7 @@ import Footer from '@/containers/Footer/Footer';
 /**/
 
 const App = () => {
-    
-    // Removendo a tela de carregamento
-    const loadingAnimation = document.getElementById('load');
-    setTimeout(() => loadingAnimation.remove(), 4500);
-    
+
     return (
         <>
 
@@ -27,7 +23,9 @@ const App = () => {
             <Services />
 
             <Footer />
-
+ 
+            
+            <>{setTimeout(()=> document.getElementById('load').remove(), 3000)}</>
         </>
     );
 }

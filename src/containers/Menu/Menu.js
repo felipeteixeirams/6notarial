@@ -1,6 +1,8 @@
 import '@/_assents/css/responsive.css';
 import './Menu.css';
 import '@/_assents/icons/themify/themify-icons.css';
+
+/** Imports components */
 import Modal from '@/components/Modal/Modal';
 import NavItem from './NavItem/NavItem';
 import DropMenuItem from './DropMenu/DropMenuItem';

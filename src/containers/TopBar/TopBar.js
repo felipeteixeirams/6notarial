@@ -1,13 +1,16 @@
+//Imports extras
 import '@/_assents/css/responsive.css';
 import Facebook from '@/components/Icons/Facebook/Facebook';
 import Instagram from '@/components/Icons/Instagram/Instagram';
 import Mail from '@/components/Icons/Mail/Mail';
 import Logo from '@/components/Logo/Logo';
 
+/** Imports components */
 import IconBlock from './IconBlock/IconBlock';
 import InfoBlock from './InfoBlock/InfoBlock';
 import Clock from '@/components/Icons/Clock/Clock';
 import Mobile from '@/components/Icons/Mobile/Mobile';
+/**/
 
 export default function TopBar (){
   return (

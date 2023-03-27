@@ -1,6 +1,9 @@
-import predio from "@/_assents/img/banner/predio-601x900.jpg";
+/* Imports extras*/
+import Image from "@/_assents/img/banner/predio-601x900.jpg";
 import '@/_assents/css/responsive.css';
 import '@/_assents/css/index.css';
+
+/** Imports components */
 import Section from "@/components/Section/Section";
 
 export default function About () {
@@ -53,13 +56,13 @@ export default function About () {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="about-img">
-                            <img src={predio} alt="Fachada da sede do Cartório do 6º Ofício de Notas" className="img-fluid" />
+                            <img src={Image} alt="Fachada da sede do Cartório do 6º Ofício de Notas" className="img-fluid" />
                         </div>
                     </div>
 
                     <article className="col-lg-8 pl-5 pt-5 pr-4 mb-1">
                         <header>
-                            <h1 class="h2">6º SERVIÇO NOTARIAL E ANTIGA  4º. CIRCUNSCRIÇÃO IMOBILIÁRIA</h1>
+                            <h1 className="h2">6º SERVIÇO NOTARIAL E ANTIGA  4º. CIRCUNSCRIÇÃO IMOBILIÁRIA</h1>
                         </header>
                         <div className="blog-content">
                             <p>Cartório localizado na região central da capital Sul-mato-grossense, tem atribuição de
