@@ -1,4 +1,3 @@
-import React from 'react';
 import '@/_assents/css/responsive.css';
 import '@/_assents/css/index.css';
 import '@/_assents/icons/themify/themify-icons.css';
@@ -8,14 +7,14 @@ import Section from '@/components/Section/Section';
 import SectionTitle from '@/components/Section/Title/Title';
 import Card from '@/components/Card/Card';
 import Modal from '@/components/Modal/Modal';
-import servicesData from '@/constants/services';
+import servicesData from '@/constants/servicesData';
 
 export default function Services () {
      return (
       <>
         <Section
-                bgColor={" "}
-                id="services"
+                bgColor="bg-transparent"
+                identifier="services"
                 head={
                     <SectionTitle
                         title="Principais Serviços"
@@ -24,48 +23,48 @@ export default function Services () {
                     />
                 }
                 content={
-                    [
+                    <>
                         <Card
                             modalId="Autenticacao"
                             icon="ti-stamp"
                             content="Autenticação de cópia"
-                        />,
+                        />
                         <Card
                             modalId="Reconhecimento"
                             icon="ti-id-badge"
                             content="Abertura e Reconhecimento de Firma"
-                        ></Card>,
+                        ></Card>
                         <Card
                             modalId="Apostila"
                             icon="ti-world"
                             content="Convenção da Apostila da Haia"
-                        />,
+                        />
                         <Card
                             modalId="Escritura"
                             icon="ti-home"
                             content="Escrituras"
-                        />,
+                        />
                         <Card
                             modalId="Procuracao"
                             icon="ti-id-badge"
                             content="Procuração, Substabelecimento e Revogação"
-                        />,
+                        />
                         <Card
                             modalId="Testamento"
                             icon="ti-pencil-alt"
                             content="Testamento"
-                        />,
+                        />
                         <Card
                             modalId="Alegacao"
                             icon="ti-car"
                             content="Alegação de Venda de Veículo (Detran/MS)"
-                        />,
+                        />
                         <Card
                             modalId="Certidao"
                             icon="ti-files"
                             content="Certidões"
                         />
-                    ]
+                    </>
                 }
           />
 
@@ -113,4 +112,5 @@ export default function Services () {
         />
       </>
      )
+     
 }

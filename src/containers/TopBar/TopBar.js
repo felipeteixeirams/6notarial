@@ -15,7 +15,7 @@ import Mobile from '@/components/Icons/Mobile/Mobile';
 export default function TopBar (){
   return (
     <>
-      <div className="top-bar bg-dark " id="top-bar">
+      <div className="top-bar navbar-dark " id="top-bar">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-10 top-bar-content">

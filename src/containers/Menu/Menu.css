@@ -30,6 +30,7 @@
 
 .navbar-dark {
    color: #fff;
+   background-color: var(--grey-black);
 }
 
 .list {

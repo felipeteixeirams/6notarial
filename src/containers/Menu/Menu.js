@@ -1,19 +1,19 @@
-import '@/_assents/css/responsive.css';
 import './Menu.css';
+import '@/_assents/css/responsive.css';
 import '@/_assents/icons/themify/themify-icons.css';
 
 /** Imports components */
-import Modal from '@/components/Modal/Modal';
 import NavItem from './NavItem/NavItem';
 import DropMenuItem from './DropMenu/DropMenuItem';
-import servicesData from '@/constants/services';
+import Modal from '@/components/Modal/Modal';
+import servicesData from '@/constants/servicesData';
 
 export default function Menu () {
     return (
         <>
             <div className="main-navigation" id="mainmenu-area">
                 <div className="container">
-                    <nav className="navbar navbar-expand-lg navbar-dark bg-dark main-nav navbar-togglable">
+                    <nav className="navbar navbar-expand-lg navbar-dark main-nav navbar-togglable">
                         <span className="navbar-brand d-lg-none d-block">
                             <h4>6º Serviço Notarial</h4>
                         </span>
@@ -40,12 +40,16 @@ export default function Menu () {
                                             target="true"
                                             content= {<>Busca de Testamento <i className='ti-new-window'></i></>}
                                         />
-                                        <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaAlegacao">
-                                            Consultar Comunicação de Venda (<abbr title="Departamento Estadual de Trânsito do MS" className="initialism">DETRAN/MS</abbr>)
-                                        </a>
-                                        <a className="dropdown-item " href="#navbarCollapse" data-toggle="modal" data-target="#modalConsultaSelo">
-                                            Consultar Selo de Autenticidade (<abbr title="Corregedoria Geral do MS" className="initialism">SIGEX</abbr>)
-                                        </a>
+                                        <DropMenuItem 
+                                            href = "https://www.tjms.jus.br/corregedoria/pesquisa-selo"
+                                            target="true"
+                                            content= {<>Consulta de Selo - TJMS <i className='ti-new-window'></i></>}
+                                        />
+                                        <DropMenuItem 
+                                            href = "https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp"
+                                            target="true"
+                                            content= {<>Consulta de Alegação de Venda Detran/MS <i className='ti-new-window'></i></>}
+                                        />
                                         <DropMenuItem
                                             href= "https://www.e-notariado.org.br/"
                                             target = "true"
@@ -74,18 +78,6 @@ export default function Menu () {
                 modalId="Privacidade"
                 title={servicesData.privacidade.title}
                 content={servicesData.privacidade.content}
-            /> 
-
-            <Modal
-                modalId="ConsultaSelo"
-                title="Consulta de Selo Eletrônico"
-                content={<iframe src="https://www.tjms.jus.br/sig-ex/pesquisaSelo.xhtml" min-height="400px" height="400px" width="100%" title="consulta selo"></iframe>}
-            />
-
-            <Modal
-                modalId="ConsultaAlegacao"
-                title="Consulta Detran (MS)"
-                content={<iframe src="https://www2.detran.ms.gov.br/detranet/pserv/veiculo/consCV/index.asp" height="70vh" width="100%" title="consulta alegação de venda"></iframe>}
             />
         </>
     )

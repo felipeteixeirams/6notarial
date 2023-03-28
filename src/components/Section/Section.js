@@ -4,7 +4,7 @@ import './Section.css';
 export default function Section (props){
     
     return (
-        <section className={`section ${props.bgColor}`} id={`${props.id}`}>
+        <section className={`section ${props.bgColor}`} id={`${props.identifier}`}>
             <div className="container">
                 {props.head}
                 <div className="row">

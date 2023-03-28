@@ -1,8 +1,7 @@
 import React from 'react';
-
+import Banner_1 from '@/_assents/img/banner/banner_1.png';
 /** Imports components */
 import Carousel from '@/components/Carousel/Carousel';
-import Banner_1 from '@/_assents/img/banner/banner_1.png';
 
 
 export default function Main () {

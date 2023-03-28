@@ -3,6 +3,7 @@ import React from 'react';
 import './Footer.css';
 import '@/_assents/css/responsive.css';
 import '@/_assents/icons/themify/themify-icons.css';
+/* Imports components */
 import Facebook from '@/components/Icons/Facebook/Facebook';
 import Instagram from '@/components/Icons/Instagram/Instagram';
 import Google from '@/components/Icons/Google/Google';

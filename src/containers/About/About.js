@@ -9,8 +9,9 @@ import Section from "@/components/Section/Section";
 export default function About () {
     return (
         <Section 
-            bgColor="bg-grey" 
-            id="sobre" 
+            bgColor="bg-light-beige" 
+            identifier="sobre"
+            head=""
             content={ 
                 <><div className="row justy-content-center">
                     <div className="col-lg-3 col-sm-6 col-md-6">
