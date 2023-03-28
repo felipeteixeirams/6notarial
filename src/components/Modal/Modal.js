@@ -1,5 +1,4 @@
 import './Modal.css';
-import '@/_assents/css/index.css';
 
 export default function Modal (props) {
    return(

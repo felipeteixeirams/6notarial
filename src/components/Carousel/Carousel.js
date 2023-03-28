@@ -1,6 +1,5 @@
 import React from 'react';
 import './Carousel.css';
-import '@/_assents/css/responsive.css';
 
 
 export default function Carousel (props) {

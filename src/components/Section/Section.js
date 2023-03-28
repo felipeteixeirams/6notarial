@@ -1,4 +1,3 @@
-import '@/_assents/css/responsive.css';
 import './Section.css';
 
 export default function Section (props){

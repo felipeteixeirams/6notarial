@@ -1,10 +1,8 @@
 /* Imports extras*/
-import Image from "@/_assents/img/banner/predio-601x900.jpg";
-import '@/_assents/css/responsive.css';
-import '@/_assents/css/index.css';
+import Image from "../../_assents/img/banner/predio-601x900.jpg";
 
 /** Imports components */
-import Section from "@/components/Section/Section";
+import Section from "../components/Section/Section";
 
 export default function About () {
     return (
