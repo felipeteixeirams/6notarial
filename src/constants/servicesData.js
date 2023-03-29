@@ -126,7 +126,7 @@ const servicesData = {
             <li>IV - executar as demais atribuições determinadas pelo controlador ou estabelecidas em normas complementares.</li>
         </ul>
         <p className="mt-4 h4">Canal de atendimento</p>
-        <p><em>Digitalmente</em> - As solicitações poderão ser realizadas através do e-mail <a href="mailto:privacidade@6notarial.com.br">privacidade@6notarial.com.br</a>, devendo o pedido ser assinado digitalmente pelo titular dos dados utilizando <a target={'_blank'} href='https://www.gov.br/iti/pt-br/assuntos/certificado-digital' rel='noreferrer'>Certificado Digital</a> em acordo com o padrão <abbr title="Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil" className="initialism">ICP-Brasil</abbr>, acompanhada do Nome, E-mail, CPF e Telefone para contato.</p>
+        <p><em>Digitalmente</em> - As solicitações poderão ser realizadas através do e-mail <a href="mailto:privacidade@6notarial.com.br">privacidade@6notarial.com.br</a>, devendo o pedido ser assinado digitalmente pelo titular dos dados utilizando <a target='_blank' href='https://www.gov.br/iti/pt-br/assuntos/certificado-digital' rel='noreferrer'>Certificado Digital</a> em acordo com o padrão <abbr title="Infraestrutura de Chaves Públicas Brasileira – ICP-Brasil" className="initialism">ICP-Brasil</abbr>, acompanhada do Nome, E-mail, CPF e Telefone para contato.</p>
         <p><em>Presencialmente</em> - O titular poderá entregar seu pedido presencialmente, devidamente assinado, acompanhado de seu Nome, E-mail, CPF e Telefone para contato.</p>
         <p>Em ambos os casos o titular receberá sua resposta de providências por e-mail, ficando disponível retira-la presencialmente.</p></>}</>
     }

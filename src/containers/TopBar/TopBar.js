@@ -39,7 +39,7 @@ export default function TopBar (){
           </div>
         </div>
       </div>
-      <div className="logo-bar d-none d-md-block d-lg-block bg-light">
+      <div className="logo-bar d-md-block d-lg-block bg-light">
         <div className="container">
           <div className="row">
             <div className="col-lg-2">

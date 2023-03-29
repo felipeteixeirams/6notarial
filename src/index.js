@@ -1,12 +1,12 @@
 /* Imports extras */
-import '_assents/css/responsive.css';
-import '_assents/css/index.css';
+import '@/_assents/css/responsive.css';
+import '@/_assents/css/index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import reportWebVitals from './reportWebVitals.js';
-import './_assents/css/index.css';
+import reportWebVitals from '@/reportWebVitals.js';
+import '@/_assents/css/index.css';
 /* Imports components */
-import App from './features/App/App';
+import App from '@/features/App/App';
 
 
 ReactDOM.render(
@@ -16,7 +16,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-setTimeout(() => document.getElementById('load').remove(), 2000);
+setTimeout(() => document.getElementById('load').remove(), 1000);
 
 
 

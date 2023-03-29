@@ -8,7 +8,7 @@ import Footer from '@/containers/Footer/Footer';
 /**/
 
 const App = () => {
-    //setTimeout(() => document.getElementById('load').remove(), 3000);
+    
     return (
         <>
 
@@ -23,7 +23,7 @@ const App = () => {
             <Services />
 
             <Footer />
-            
+
         </>
     );
 }

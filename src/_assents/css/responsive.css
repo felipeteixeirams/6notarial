@@ -1,3 +1,4 @@
+
 /*----------------------------------
     BIG LAYOUT: 1200px END MORE
 -----------------------------------*/
@@ -5,10 +6,6 @@
 
     .carousel-item {
         height: 70vh;
-    }
-
-    .navbar .nav-item-divider {
-        display: block
     }
 
     .navbar .dropdown-menu {
@@ -60,6 +57,10 @@
         max-height: 70vh;
     }
 
+    div.logo-bar .container{
+        display: none;
+    }
+
     .img-fluid {
         width: 100%;
         height: 100vh;
@@ -109,8 +110,6 @@
         margin-bottom: 0px
     }
 
-
-
     .section-heading {
         margin-bottom: 30px;
     }
@@ -121,20 +120,6 @@
 
     .footer-copy:before {
         display: none;
-    }
-
-    .banner-content p {
-        padding-right: 0px;
-    }
-
-    .pricing-box {
-        margin-top: 30px;
-    }
-
-    .main-navigation.menu-2 {
-        margin-top: 20px;
-        position: absolute;
-        width: 100%;
     }
 
     .top-info-block {
@@ -152,10 +137,6 @@
 
     #map {
         margin-top: 40px;
-    }
-
-    .contact-info-block {
-        margin-bottom: 25px;
     }
     
     .section {
@@ -198,6 +179,10 @@
     h6 {
         font-size: .75rem
     }
+
+    div.logo-bar .container{
+        display: none;
+    }
     
     .carousel-item {
         max-height: 64vh;
@@ -230,11 +215,7 @@
     }
     
     i.icons {
-        display: none
-    }
-    
-    .display-4 {
-        font-size: 2.5rem;
+        display: block
     }
 
     .top-info-block {
@@ -264,15 +245,6 @@
         margin-bottom: 0px;
     }
 
-
-
-    .pricing-block.zoom-in {
-        -webkit-transform: none;
-        -ms-transform: none;
-        -o-transform: none;
-        transform: none;
-    }
-
     .section-heading {
         margin-bottom: 30px;
     }
@@ -285,42 +257,13 @@
         display: none;
     }
 
-    .banner-content p {
-        padding-right: 0px;
-    }
-
-    .pricing-box {
-        margin-top: 30px;
-    }
-
-    .main-navigation.menu-2 {
-        margin-top: 20px;
-        position: absolute;
-        width: 100%;
-    }
-
     .img-icon-block:before {
         right: auto;
-    }
-
-    .info-block-2 {
-        margin-right: 35px;
-        margin-bottom: 40px;
-    }
-
-    .navbar-collapse.collapse.show {
-        padding-bottom: 30px;
-        background: #21c87a;
     }
 
     #map {
         margin-top: 40px;
     }
-
-    .contact-info-block {
-        margin-bottom: 25px;
-    }
-
 
 }
 
@@ -328,6 +271,10 @@
 /* Extra Small Devices, Phones */
 
 @media (min-width: 478px) and (max-width: 640px) {
+
+    div.logo-bar .container{
+        display: none;
+    }
 
     .carousel-item {
         max-height: 55vh;
@@ -357,14 +304,9 @@
     i.icons {
         display: none
     }
-    
-    .display-4 {
-        font-size: 2.5rem;
-    }
 
     .navbar-collapse.collapse.show {
         padding-bottom: 30px;
-        background: #21c87a;
     }
 
     .top-info-block {
@@ -394,15 +336,6 @@
         margin-bottom: 0px;
     }
 
-
-
-    .pricing-block.zoom-in {
-        -webkit-transform: none;
-        -ms-transform: none;
-        -o-transform: none;
-        transform: none;
-    }
-
     .section-heading {
         margin-bottom: 30px;
     }
@@ -415,41 +348,6 @@
         display: none;
     }
 
-    .about-block {
-        margin-top: 30px;
-    }
-
-    .banner-content p {
-        padding-right: 0px;
-    }
-
-    .pricing-box {
-        margin-top: 30px;
-    }
-
-    .main-navigation.menu-2 {
-        margin-top: 20px;
-        position: absolute;
-        width: 100%;
-    }
-
-
-    .banner-content p {
-        padding-right: 0px;
-    }
-
-    .pricing-box {
-        margin-top: 30px;
-    }
-
-
-    .main-navigation.menu-2 {
-        margin-top: 20px;
-        position: absolute;
-        width: 100%;
-    }
-
-
     .service-block {
         margin-bottom: 30px;
     }
@@ -459,32 +357,18 @@
         right: auto;
     }
 
-    #feature {
-        padding-bottom: 0px;
-    }
-
-    #pricing-2 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .info-block-2 {
-        margin-right: 35px;
-        margin-bottom: 40px;
-    }
-
     #map {
         margin-top: 40px;
-    }
-
-    .contact-info-block {
-        margin-bottom: 25px;
     }
 
 }
 
 /* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px) {
+
+    div.logo-bar .container{
+        display: none;
+    }
 
     .container {
         max-width: 540px;
@@ -543,6 +427,10 @@
         margin-top: 20px;
     }
 
+    .navbar-collapse.collapse.show {
+        padding-bottom: 30px;
+    }
+
     .main-nav .navbar-brand h4 {
         color: #fff;
         margin-top: 10px;
@@ -560,14 +448,6 @@
         margin-bottom: 0px;
     }
 
-
-    .pricing-block.zoom-in {
-        -webkit-transform: none;
-        -ms-transform: none;
-        -o-transform: none;
-        transform: none;
-    }
-
     .section-heading {
         margin-bottom: 30px;
     }
@@ -580,37 +460,6 @@
         display: none;
     }
 
-
-    .about-block {
-        margin-top: 30px;
-    }
-
-
-    .banner-content .display-4 {
-        font-size: 28px;
-        line-height: 38px;
-    }
-
-    .banner-content p {
-        padding-right: 0px;
-    }
-
-    .pricing-box {
-        margin-top: 30px;
-    }
-
-
-    .main-navigation.menu-2 {
-        margin-top: 20px;
-        position: absolute;
-        width: 100%;
-    }
-
-    .navbar-collapse.collapse.show {
-        padding-bottom: 30px;
-        background: #21c87a;
-    }
-
     .service-block {
         margin-bottom: 30px;
     }
@@ -620,36 +469,28 @@
         padding: 60px 0px;
     }
 
-    #projects {
-        margin-top: 60px;
-    }
-
     .img-icon-block:before {
         right: auto;
     }
 
-    #feature {
-        padding-bottom: 0px;
-    }
-
-    .display-4 {
-        font-size: 30px;
-    }
-
-    .info-block-2 {
-        margin-right: 35px;
-        margin-bottom: 40px;
-    }
 
     #map {
         margin-top: 40px;
     }
-
-    .contact-info-block {
-        margin-bottom: 25px;
-    }
     
     .size-1 {
         font-size: 65%
+    }
+}
+
+
+@media (max-width: 319px) {
+
+    div.logo-bar .container{
+        display: none;
+    }
+
+    #top-bar {
+        display: none;
     }
 }
