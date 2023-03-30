@@ -15,7 +15,7 @@ export default function Menu () {
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-dark main-nav navbar-togglable">
                         <span className="navbar-brand d-lg-none d-block">
-                            <h4>6º Serviço Notarial</h4>
+                            <p className='h4 text-white'>6º Serviço Notarial</p>
                         </span>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="ti-view-list"></span>

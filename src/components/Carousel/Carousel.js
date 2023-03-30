@@ -10,10 +10,12 @@ export default function Carousel (props) {
             </ol>
             <div className="carousel-inner" id="innerCarousel">
                 <div className="carousel-item active">
-                    <img height="100%" src={props.banner} alt="..." />
-                    <div className="carousel-caption d-md-block">
-                        <p className='d-inline-flex h3 text-muted bg-white'>{props.title}</p>
-                        <p className='d-inline-flex h4 text-muted bg-white'>{props.description}</p>
+                    <center>
+                        <img height="100%" src={props.banner} alt="..." />
+                    </center>
+                    <div className="carousel-caption d-md-block text-left">
+                        <p className='d-inline-flex h1'>{props.title}</p>
+                        <p className='d-inline-flex h4'>{props.description}</p>
                     </div>
                 </div>
             </div>

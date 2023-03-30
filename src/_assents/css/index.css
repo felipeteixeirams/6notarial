@@ -9,7 +9,7 @@
     --grey-medium: #6c757d
     --grey-light: #d6d6d6;
     --light-beige: #fdf8ea;
-    --light-grey: #F4F7FC;
+    --light-grey: #ececec;
     --black-1: #232323;
     --black-transparent-1: #000000eb;
     --black-transparent-2: #00000026;
@@ -40,7 +40,7 @@
 -----------------*/
 
 .bg-light-beige {
-    background-color: var(--light-beige);
+    background-color: var(--light-grey);
 }
 
 
@@ -51,16 +51,48 @@ body {
     background-color: white;
 }
 
-a:hover {
-    color: var(--grey-light);
+a {
+    color: var(--green-moss);
+    font-weight: bold;
+    transition: .3s;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
 }
 
 .box-shadow {
     box-shadow: 0 25px 100px -5px var(--black-transparent-2);
 }
 
+.pt-1 {
+    padding-top: 1.1rem;
+}
+
+.pt-2 {
+    padding-top: 1.6rem;
+}
+
+.pt-3 {
+    padding-top: 2.2rem;
+}
+
+.pt-4 {
+    padding-top: 2.8rem;
+}
+
+.pt-5 {
+    padding-top: 3.4rem;
+}
+
 .pt-6 {
-    padding-top: 4.5rem;
+    padding-top: 4.1rem;
+}
+
+.pt-7 {
+    padding-top: 4.6rem;
 }
 
 .mt50 {
@@ -97,7 +129,7 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.75;
     color: var(--grey-medium);
     text-align: left;
@@ -163,17 +195,7 @@ p {
     font-size: 15px;
 }
 
-a {
-    color: var(--green-moss);
 
-    transition: .3s;
-}
-
-a:hover,
-a:focus {
-    outline: none;
-    text-decoration: none;
-}
 
 img {
     vertical-align: middle;
@@ -372,7 +394,7 @@ ABOUT
 ---------------------------*/
 
 .about-img {
-    margin-bottom: -200px;
+    margin-bottom: -10px;
     border: 10px solid#fff;
     z-index: 100;
 }
@@ -393,7 +415,7 @@ ABOUT
     background-color: #21c87a;
     opacity: .3;
     width: 80px;
-    right: 70px;
+    /* right: 70px; */
     height: 80px;
     border-radius: 50%;
     z-index: 1;
@@ -430,7 +452,8 @@ ABOUT
 
 .service-block {
     text-align: center;
-    padding: 35px 25px;
+    padding: 1rem 2rem;
+    height: 100%;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
@@ -526,7 +549,7 @@ ABOUT
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 32px;
-    font-size: 14px;
+    font-size: 1.2rem;
 }
 
 .footer-widget h3 {

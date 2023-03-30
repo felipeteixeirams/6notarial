@@ -63,7 +63,7 @@
 
     .img-fluid {
         width: 100%;
-        height: 100vh;
+        height: 45vh;
         object-fit: cover;
         object-position: bottom;
     }
@@ -190,7 +190,7 @@
     
     .img-fluid {
         width: 100%;
-        height: 60vh;
+        height: 40vh;
         object-fit: cover;
         object-position: bottom;
     }
@@ -200,7 +200,7 @@
     }
     
     .service-block{
-        padding: 10px 25px;
+        padding: 1rem 2rem;
     }
 
     .carousel-item {
@@ -288,7 +288,7 @@
     }
 
     .service-block{
-        padding: 10px 25px;
+        padding: 1rem 2rem;
     }
         
     .carousel-item {
@@ -380,7 +380,7 @@
 
     .img-fluid {
         width: 100%;
-        height: 40vh;
+        height: 35vh;
         object-fit: cover;
         object-position: bottom;
     }
@@ -390,7 +390,7 @@
     }
 
     .service-block{
-        padding: 10px 25px;
+        padding: 1rem 2rem;
     }
     
     .carousel-item {
@@ -461,7 +461,7 @@
     }
 
     .service-block {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
 
@@ -479,7 +479,8 @@
     }
     
     .size-1 {
-        font-size: 65%
+        text-transform: uppercase;
+        font-size: 60%
     }
 }
 
@@ -493,4 +494,12 @@
     #top-bar {
         display: none;
     }
+
+    .img-fluid {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
 }

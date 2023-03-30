@@ -1,5 +1,6 @@
 /* Imports extras*/
 import Image from "@/_assents/img/banner/predio-601x900.jpg";
+import './About.css';
 
 /** Imports components */
 import Section from "@/components/Section/Section";
@@ -78,7 +79,7 @@ export default function About () {
                             pela Serventia o Sr. Ariovaldo Pereira R. Neto, o qual trabalhou sem interrupção no
                             mesmo Serviço Notarial, como funcionário desde a data de 1º de Março de 1983, mantendo assim
                             a tradição de excelência, segurança jurídica e qualidade nos serviços prestados.</p>
-                            <p className="pt-1">Faça-nos uma <a href="https://g.page/6oficio?share" target="_blank" rel="noreferrer">visita</a>!</p>
+                            <p className="pt-3">Faça-nos uma <a href="https://g.page/6oficio?share" target="_blank" rel="noreferrer">visita</a>!</p>
                         </div>
                     </article>
                 </div>

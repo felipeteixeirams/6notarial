@@ -23,10 +23,10 @@ export default function Footer () {
                     <div className="footer-widget">
                         <h1 className="h3 text-white">Fale conosco</h1>
                         <ul className="footer-links-contact-us">
-                            <li><i className="ti-location-pin pr-2"></i>Rua 15 de Novembro, 428, Centro, Campo Grande/MS</li>
+                            <li><i className="ti-location-pin pr-2"></i>Rua 15 de Novembro, 428 - 79002-140</li>
                             <li><i className="ti-email pr-2"></i><a href="mailto:atendimento@6notarial.com.br">atendimento@6notarial.com.br</a></li>
-                            <li><i className="ti-mobile pr-2"></i><a href="tel:6733822590">(67)3382-2590</a> / <a href="tel:67999196848">(67)99919-6848</a></li>
-                            <li><i className="ti-time pr-2"></i>Seg-Sex <time>8:00</time>-<time>17:00</time></li>
+                            <li><i className="ti-mobile pr-2"></i><a href="tel:6733822590">+55 67 33822590</a> | <a href="tel:67999196848">+55 67 999196848</a></li>
+                            <li><i className="ti-time pr-2"></i>Seg à Sex<time> | 8h</time> às <time>17h</time></li>
                         </ul>
                     </div>
                 </div>

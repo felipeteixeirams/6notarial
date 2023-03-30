@@ -7,39 +7,48 @@
     -webkit-background-size: cover;
 }
 
+#footer p {
+    color:lightgrey;
+    font-weight: 300;
+}
+
 .ponto {
     font-size: 5px;
     position: absolute;
     margin-top: 14px;
 }
 
-.footer-links-contact-us {
+.footer-links-contact-us,
+.footer-links-site-map,
+.footer-links-contact-us a,
+.footer-links-site-map a{
     padding-left: 0;
-    list-style-type: none;
-    color: #888888;
-    padding-bottom: 5px;
+    padding-bottom: .3rem;
+    padding-top: .3rem;
+    
+    color:lightgrey;
+    font-weight: 300;
 }
 
 .footer-links-contact-us > li {
     list-style-position: outside;
-
+    list-style-type: none;
 }
 
 .footer-links-site-map a {
-    color: #888888;
-
     transition: .3s;
 }
 
-.footer-links-site-map a:active {
-    color: #21c87a;
-}
-
-.footer-links-site-map a:hover {
-    color: #d8d8d8;
+.footer-links-site-map a:hover,
+.footer-links-contact-us a:hover {
+    font-weight: bold;
 }
 
 ul.footer-links-site-map li,
 ul.footer-links-contact-us li{
     padding-top: .3rem
+}
+
+.footer-copy a:hover{
+    color: lightgrey;
 }
