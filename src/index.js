@@ -4,7 +4,6 @@ import '@/_assents/css/index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from '@/reportWebVitals.js';
-import '@/_assents/css/index.css';
 /* Imports components */
 import App from '@/features/App/App';
 
