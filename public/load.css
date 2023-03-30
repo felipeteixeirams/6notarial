@@ -9,8 +9,8 @@
 }
   
 .square-to-circle {
-width: 120px;
-height: 120px;
+width: 100px;
+height: 100px;
 animation: square-to-circle 2s 1s infinite cubic-bezier(1,.015,.295,1.225) alternate;
 }
   
@@ -33,11 +33,11 @@ animation: square-to-circle 2s 1s infinite cubic-bezier(1,.015,.295,1.225) alter
     75%{
         transform: rotale(135deg);
         border-radius: 0 50% 0 50%;
-        background: #ffff00;
+        background: #0ecc47;
     }
     100%{
         transform: rotale(180deg);
         border-radius: 0 0 50% 50%;
-        background: #a0a04a;
+        background: #161616;
     }
 }
