@@ -15,7 +15,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-//setTimeout(() => document.getElementById('load').remove(), 1000);
+setTimeout(() => document.getElementById('load').remove(), 1000);
 
 
 
