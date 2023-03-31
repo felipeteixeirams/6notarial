@@ -1,5 +1,6 @@
 //Imports extras
 import '@/_assents/css/responsive.css';
+import '@/_assents/css/index.css';
 import './TopBar.css';
 import Facebook from '@/components/Icons/Facebook/Facebook';
 import Instagram from '@/components/Icons/Instagram/Instagram';

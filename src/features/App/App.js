@@ -1,3 +1,5 @@
+import '@/_assents/css/responsive.css';
+import '@/_assents/css/index.css';
 /*** Imports containers ***/
 import TopBar from '@/containers/TopBar/TopBar';
 import Menu from '@/containers/Menu/Menu';

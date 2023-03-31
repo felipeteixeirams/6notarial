@@ -6,7 +6,7 @@
 
 :root {
     --grey-black: #474747;
-    --grey-medium: #6c757d
+    --grey-medium: #6c757d;
     --grey-light: #d6d6d6;
     --light-beige: #fdf8ea;
     --light-grey: #ececec;
@@ -152,7 +152,7 @@ h6 {
     font-weight: 700;
     line-height: 1.35;
     margin-bottom: .5rem;
-    color: var(--blue-dark)
+    color: var(--blue-dark);
 }
 
 .h1,
@@ -221,7 +221,7 @@ img {
     padding: 1.1rem 2.7rem;
     border: 0.1rem solid transparent;
     transition: all 0.2s ease-in-out;
-    letter-spacing: .5px
+    letter-spacing: .5px;
 }
 
 .btn-circle {
@@ -231,7 +231,7 @@ img {
     padding: 0 !important;
     border-radius: 50%;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .btn-white {
@@ -240,7 +240,7 @@ img {
 }
 
 .btn:focus {
-    box-shadow: none !important
+    box-shadow: none !important;
 }
 
 .btn-circled {
