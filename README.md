@@ -25,4 +25,4 @@
 <br><br>
 
 
-<h3>Feito com ❤️ por <a url="https://www.linkedin.com/in/felipeteixeirams/" target="_blank">Felipe Teixeira</a>.</h3>
+<h4>Feito com ❤️ por <a url="https://www.linkedin.com/in/felipeteixeirams/" target="_blank">Felipe Teixeira</a>.</h4>
