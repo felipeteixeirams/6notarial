@@ -2,7 +2,7 @@
 <dd>Site institucional de página única.</dd>
 <br>
 
-<img src="preview.jpg" style="margin: auto 0" width="400px" />
+<img src="preview.jpg" style="margin: 0 auto" width="400px" />
 
 <br><br>
 
