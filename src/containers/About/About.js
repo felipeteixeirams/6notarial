@@ -1,5 +1,5 @@
 /* Imports extras*/
-import Image from "@/_assents/img/banner/predio-601x900.jpg";
+import Image from "@/_assents/img/banner/predio-601x900.webp";
 import './About.css';
 
 /** Imports components */

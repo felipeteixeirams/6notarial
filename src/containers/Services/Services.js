@@ -1,5 +1,6 @@
 import '@/_assents/css/responsive.css';
 import '@/_assents/css/index.css';
+import './Services.css';
 import '@/_assents/icons/themify/themify-icons.css';
 
 /** Imports components */
