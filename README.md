@@ -1,18 +1,19 @@
-<h1>🚀 Projeto</h1> 
-<dd>Site institucional de página única.</dd>
-<br>
+<h1>Web Site Institucional</h1> 
+
 
 <img src="preview.jpg" style="margin: 0 auto" width="400px" />
 
 <br><br>
 
+<dd>Projeto simples de página única, com o objetivo de dar publicidade a informações da instituição, contato dentre outras regras de negócio.</dd>
+
+<br><br>
+
 <h1>🛠️ Tecnologias utilizadas</h1> 
 <ul>
-    <li>Html</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>React</li>
-    <li>Bootstrap</li>
+    <li>Padrões web - HTML, CSS e JavaScript</li>
+    <li>Library JavaScript - React.js</li>
+    <li>Framework CSS - Bootstrap</li>
 </ul>
 
 <br><br>
