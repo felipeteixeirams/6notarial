@@ -2,6 +2,7 @@
 
 
 <img src="preview.jpg" style="margin: 0 auto" width="400px" />
+![preview](https://github.com/felipeteixeirams/6notarial/assets/46509672/3a940be5-9cd2-4c29-a696-29defd3ea8f6)
 
 <br><br>
 
@@ -10,6 +11,7 @@
 <br><br>
 
 <h1>🛠️ Tecnologias utilizadas</h1> 
+
 <ul>
     <li>Padrões web - HTML, CSS e JavaScript</li>
     <li>Library JavaScript - React.js</li>
