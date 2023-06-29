@@ -25,11 +25,12 @@
 <p>- Gerenciador de pacotes <a href="https://nodejs.org/pt-br/download" target="_blank">NPM</a>.</p>
 <dd>Nota: o projeto é executado na porta localhost 3000, restrições de firewall podem impedir a execução da aplicação.</dd>
 <ol>
-    <li>passo - baixar os arquivos do projeto</li>
-    <li>passo - </li>
-    <li>passo - </li>
+    <li>passo - baixe os arquivos do projeto, com o terminal configurado no caminho escolhido execute o comando <code>git clone https://github.com/felipeteixeirams/6notarial.git</code></li>
+    <li>passo - baixei as dependencias necessárias a execução do projeto, executando no terminal o comando <code>npm install</code></li>
+    <li>passo - execute o projeto, após o término do download de todas as dependências execute o comando <code>npm start</code></li>
+    <li>passo - abrir o projeto, em seu navegador entre com o endereço <a href="https://127.0.0.1:3000" target="_blank">NPM</a></li>
 </ol>
-
+<em>Fique a vontade para reportar qualquer problema ou sugestão <a href="mailto:felipeteixeirams@gmail.com">aqui</a>.</em>
 <br><br>
 
 
