@@ -20,9 +20,15 @@
 <br><br>
 
 <h1>📃 Como utilizar</h1>
-<p>Para executar o projeto localmente utilize o comando <strong>npm start</strong></p>
-<p>Abrir <em>[http://localhost:3000](http://localhost:3000)</em> para visualizar no navegador.</p>
-<p>A página irá atualizar a cada alteração, você poderá visualizar qualquer erro no console F12.</p>
+<p><strong>Pré-requisitos:</strong></p>
+<p>- Sistema de controle de versões <a href="https://git-scm.com/downloads" target="_blank">Git</a>.</p>
+<p>- Gerenciador de pacotes <a href="https://nodejs.org/pt-br/download" target="_blank">NPM</a>.</p>
+<dd>Nota: o projeto é executado na porta localhost 3000, restrições de firewall podem impedir a execução da aplicação.</dd>
+<ol>
+    <li>passo - baixar os arquivos do projeto</li>
+    <li>passo - </li>
+    <li>passo - </li>
+</ol>
 
 <br><br>
 
