@@ -1,6 +1,5 @@
-<h1>Web Site Institucional</h1> 
-
-
+<h2>WEB SITE INSTITUCIONAL</h2> 
+<br>
 <img src="https://github.com/felipeteixeirams/6notarial/assets/46509672/0a4507e2-0411-4acd-8623-7a00b3044f95" style="margin: 0 auto" width="auto" />
 
 <br><br>
@@ -9,7 +8,7 @@
 
 <br><br>
 
-<h1>🛠️ Tecnologias utilizadas</h1> 
+<h2>🛠️ Tecnologias utilizadas</h2> 
 
 <ul>
     <li>Padrões web - HTML, CSS e JavaScript</li>
@@ -19,7 +18,7 @@
 
 <br><br>
 
-<h1>📃 Como utilizar</h1>
+<h2>📃 Como utilizar</h2>
 <p><strong>Pré-requisitos:</strong></p>
 <p>- Sistema de controle de versões <a href="https://git-scm.com/downloads" target="_blank">Git</a>.</p>
 <p>- Gerenciador de pacotes <a href="https://nodejs.org/pt-br/download" target="_blank">NPM</a>.</p>
