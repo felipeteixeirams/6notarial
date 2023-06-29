@@ -1,8 +1,7 @@
 <h1>Web Site Institucional</h1> 
 
 
-<img src="https://github.com/felipeteixeirams/6notarial/assets/46509672/3a940be5-9cd2-4c29-a696-29defd3ea8f6" style="margin: 0 auto" width="400px" />
-
+<img src="https://github.com/felipeteixeirams/6notarial/assets/46509672/0a4507e2-0411-4acd-8623-7a00b3044f95" style="margin: 0 auto" width="auto" />
 
 <br><br>
 
